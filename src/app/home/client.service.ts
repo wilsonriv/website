@@ -99,6 +99,20 @@ export class ClientService {
       description: `In 2018, Helm Technologies acquired Tega Technologies, which was founded in 2005.  Helm Technologies has rapidly evolved by embracing advanced technology and marketing expertise to form solutions for businesses and organizations that want to communicate more effectively with their customers and members.
 
       Helm leads the mobile marketing industry in innovation by automating on-demand marketing campaigns based on specific customer and member behaviors and interests for most industry verticals with specific emphasis on retail sales and automotive dealerships.`
+    },
+    {
+      name: 'WIND telecom',
+      logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG9zwsi9EYcbQ/company-logo_200_200/0?e=1597276800&v=beta&t=G7aoGzrG9wJTEhI3Qp6qoOYRDzGW2q2z-G3WG4mGyYY',
+      websiteUrl: 'http://www.wind.com.do',
+      description: `WIND TELECOM, S. A. es una empresa de telecomunicaciones en República Dominicana, cuyo enfoque es brindar servicios integrados de Voz, Televisión Digital e Internet a nuestros clientes personales, así como servicios especializados a empresas, instituciones y a otras prestadores de servicios, garantizando calidad, costo y entrega. Nuestra red de voz y datos es completamente IP; además está basada primordialmente en tecnología WiMax, apoyándose también en accesos punto a punto por microondas y redes de fibra óptica para el transporte de grandes volúmenes de información. Nuestra red de video está basada en MMDS (Multichannel Multipoint Distribution System).
+
+      Nuestro propósito es ser el proveedor preferido de soluciones de conectividad, contenido de información y entretenimiento en los mercados personales, empresariales e institucionales, satisfaciendo las expectativas de nuestros clientes en calidad, costo y entrega y apoyando de manera directa la educación en República Dominicana.`
+    },
+    {
+      name: 'Integuer',
+      logoUrl: 'https://www.integuer.do/Content/Imagery/integuer_brand.png',
+      websiteUrl: 'https://www.integuer.do',
+      description: `Integuer S.R.L. nace en el 2010 como un emprendimíento de su actual Presidente el Ing. Martín José Santos Casado en su retorno al país después de un período profesional y vital de 18 años por Europa, siendo el posicionamiento de la compañía "Software y soluciones para la gestión de empresas". Integuer ha desarrollado diferentes proyectos para destacadas empresas tanto en el sector público como en el sector privado.`
     }
   ];
 
