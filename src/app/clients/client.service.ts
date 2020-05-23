@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Client } from './client.model';
+import { GroupClient } from './group-client.model';
 
 @Injectable({
   providedIn: 'root'
@@ -179,5 +180,27 @@ export class ClientService {
 
   getAll() {
     return this.clients;
+  }
+
+  getByGroup(groupOf: number) {
+    const groupClients: GroupClient[] = [];
+    let groups = [] as Client[];
+    let count = 0;
+
+    this.clients.forEach((client, index) => {
+      count = index + 1;
+      groups.push(client);
+
+      if (count % 3 === 0) {
+        groupClients.push({ clients: groups });
+        groups = [];
+      }
+
+      if (count === this.clients.length && groups.length) {
+        groupClients.push({ clients: groups });
+      }
+    });
+
+    return groupClients;
   }
 }

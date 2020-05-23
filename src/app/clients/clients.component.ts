@@ -14,26 +14,6 @@ export class ClientsComponent implements OnInit {
   constructor(private clientService: ClientService) { }
 
   ngOnInit(): void {
-    this.initGroupClients();
-  }
-
-  private initGroupClients() {
-    const clients = this.clientService.getAll();
-    let groups = [] as Client[];
-    let count = 0;
-
-    clients.forEach((client, index) => {
-      count = index + 1;
-      groups.push(client);
-
-      if (count % 3 === 0) {
-        this.groupClients.push({ clients: groups });
-        groups = [];
-      }
-
-      if (count === clients.length && groups.length) {
-        this.groupClients.push({ clients: groups });
-      }
-    });
+    this.groupClients = this.clientService.getByGroup(3);
   }
 }
