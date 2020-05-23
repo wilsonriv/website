@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { interval } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +7,5 @@ import { interval } from 'rxjs';
 })
 export class AppComponent implements OnInit {
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 }

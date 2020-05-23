@@ -1,22 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import { ClientService } from './client.service';
-import { GroupClient } from './group-client.model';
-import { Client } from './client.model';
+import { GroupClient } from 'src/app/clients/group-client.model';
+import { ClientService } from 'src/app/clients/client.service';
+import { Client } from 'src/app/clients/client.model';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-clients',
+  templateUrl: './clients.component.html',
+  styleUrls: ['./clients.component.css']
 })
-export class HomeComponent implements OnInit {
+export class ClientsComponent implements OnInit {
   groupClients: GroupClient[] = [];
 
   constructor(private clientService: ClientService) { }
 
   ngOnInit(): void {
     this.initGroupClients();
-
-    console.log(this.groupClients);
   }
 
   private initGroupClients() {
