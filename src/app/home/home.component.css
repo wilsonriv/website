@@ -8,3 +8,7 @@
 .hbr-group {
   background-color: aqua;
 }
+
+.card-deck {
+  margin-bottom: 20px;
+}

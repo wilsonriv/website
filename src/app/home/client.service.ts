@@ -1,23 +1,27 @@
 import { Injectable } from '@angular/core';
+import { Client } from './client.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ClientService {
-  clients: Array<{name: string, logoUrl: string, websiteUrl: string, description: string}> = [
+  private clients: Array<Client> = [
     {
+      id: 'verys',
       name: 'Verys',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQGHRg2CHTyrZw/company-logo_200_200/0?e=1597276800&v=beta&t=0aMUXTXkw_ciZK7bIvQGCBrpJCPMF-1HyM6ZkfQ4t1I',
       websiteUrl: 'https://verys.com',
       description: `We provide end-to-end design and technology web and mobile services utilizing a local, onshore delivery model.`
     },
     {
+      id: 'vertafore',
       name: 'Vertafore',
       logoUrl: 'https://www.vertafore.com/themes/custom/themekit/logo.svg',
       websiteUrl: 'https://www.vertafore.com',
       description: `Vertafore is the leader in creating modern insurance technology. Every day thousands of insurance agencies, carriers and states use a breadth of Vertafore solutions to grow their businesses, process claims for their customers and much more. Click on the Careers tab to learn more about opportunities with us!`
     },
     {
+      id: 'pwc',
       name: 'PwC',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQFR46llmlEDrw/company-logo_200_200/0?e=1597881600&v=beta&t=SL5TW5bFo41EWs6WEWrveSz7jNA5S6QfqtmyhFvJH5k',
       websiteUrl: 'https://www.pwc.com/gx/en',
@@ -26,6 +30,7 @@ export class ClientService {
       PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. Please see www.pwc.com/structure for further details. The firms that make up the PwC network are committed to working together to provide quality service offerings for clients throughout the world. Firms in the PwC network are members in, or have other connections to, PricewaterhouseCoopers International Limited (PwCIL), an English private company limited by guarantee. PwCIL does not practise accountancy or provide services to clients.`
     },
     {
+      id: 'senegence',
       name: 'SeneGence International',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQESV6Y9cW0XHA/company-logo_200_200/0?e=1597276800&v=beta&t=7IW1jE2teurtEwO6lS-qHUyzNVBIDo0LMkB2fyTrz0Q',
       websiteUrl: 'https://senegence.com',
@@ -43,6 +48,7 @@ export class ClientService {
       `
     },
     {
+      id: 'technossus',
       name: 'Technossus',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQFR0gAmfCZMVg/company-logo_200_200/0?e=1597276800&v=beta&t=WPzxBPypEKYpevoaxzzWzio_vmvPfEQFKVoxRB-8kGY',
       websiteUrl: 'http://www.technossus.com',
@@ -57,6 +63,7 @@ export class ClientService {
       As a committed leader, folks at Technossus spearhead efforts to give back to the local community through affiliations with The Boys and Girls Club of America and The OC Food Bank.`
     },
     {
+      id: 'glidewell',
       name: 'Glidewell Dental',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQEuJ-fK_Ny7pA/company-logo_200_200/0?e=1597276800&v=beta&t=bFCNS-i-TY83f3pE4U6rxr7BLpCa1c2Dd0bZTu7qHJs',
       websiteUrl: 'http://www.glidewelldental.com',
@@ -65,12 +72,14 @@ export class ClientService {
       Glidewell Dental is a dental industry leader thanks to its innovative dental technology, resourceful R&D department, and dedication to providing free clinical and technical education to promote dental industry growth. As new advancements continue to redefine dental technology, Glidewell Dental remains dedicated to improved CAD/CAM processes and development. The lab has made great strides in case-to-case consistency using this technology, which allows digital impressions to be sent electronically, reducing costs and improving turnaround time.`
     },
     {
+      id: 'bio-rad',
       name: 'Bio-Rad Laboratories',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhlNN99A20IA/company-logo_200_200/0?e=1597276800&v=beta&t=oJ5uuzk7qSZrUnutobotcGDjTDuGJcQzGp0ww1OY-ic',
       websiteUrl: 'http://www.bio-rad.com',
       description: `Since Bio-Rad was founded over six decades ago, we have continued to provide the healthcare industry with innovative and useful products that help life science researchers accelerate the discovery process and medical diagnostic labs obtain faster, better results. Throughout our existence, we have built long-lasting customer relationships that help advance our research and development efforts in the introduction of new products and solutions. Today, Bio-Rad is a global leader, with a team of over 8,000 employees and a global network of operations that serves our life science research and clinical diagnostics customers, helping people live longer, healthier lives.`
     },
     {
+      id: 'dignity-health',
       name: 'Dignity Health',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG1OtNHbC7pBA/company-logo_200_200/0?e=1597276800&v=beta&t=CU5L7cxud2ufFqfbN29WxUjyqlNybviAY8Sa8cyHPr0',
       websiteUrl: 'http://www.dignityhealth.org',
@@ -81,6 +90,7 @@ export class ClientService {
       With several different ways to activate your search, let us help you to quickly and easily find an affordable, quality medical facility located close to where you need it, when you need it.`
     },
     {
+      id: 'amare-global',
       name: 'Amare Global',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQE_yxGZvFnXgw/company-logo_200_200/0?e=1597276800&v=beta&t=Q5hBi9EVQ8Srg1_PrzpWgBpenBgFozPZnBtPRb5wL5Y',
       websiteUrl: 'http://www.amareglobal.com',
@@ -93,6 +103,7 @@ export class ClientService {
       Thus, Amare Global was created. We focus on the excellence and integrity throughout our product development, people development, and the customer experience. Ultimately, we strive to create products that will inspire people to become better versions of themselves. Amare means "To Love"​ in Latin and we believe in promoting Love for one's self, as well as a powerful connection with others. By empowering people to connect through our innovative products and platform, we will grow together and reach beyond our limits.`
     },
     {
+      id: 'tega-technologies',
       name: 'Tega Technologies',
       logoUrl: 'https://yt3.ggpht.com/a/AATXAJxNau80N6Pua7QgVx9VlwTTRNSmP0wHyBpdTw=s100-c-k-c0xffffffff-no-rj-mo',
       websiteUrl: 'https://tegatechnologies.com',
@@ -101,6 +112,7 @@ export class ClientService {
       Helm leads the mobile marketing industry in innovation by automating on-demand marketing campaigns based on specific customer and member behaviors and interests for most industry verticals with specific emphasis on retail sales and automotive dealerships.`
     },
     {
+      id: 'wind-telecom',
       name: 'WIND telecom',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG9zwsi9EYcbQ/company-logo_200_200/0?e=1597276800&v=beta&t=G7aoGzrG9wJTEhI3Qp6qoOYRDzGW2q2z-G3WG4mGyYY',
       websiteUrl: 'http://www.wind.com.do',
@@ -109,12 +121,63 @@ export class ClientService {
       Nuestro propósito es ser el proveedor preferido de soluciones de conectividad, contenido de información y entretenimiento en los mercados personales, empresariales e institucionales, satisfaciendo las expectativas de nuestros clientes en calidad, costo y entrega y apoyando de manera directa la educación en República Dominicana.`
     },
     {
+      id: 'integuer',
       name: 'Integuer',
       logoUrl: 'https://www.integuer.do/Content/Imagery/integuer_brand.png',
       websiteUrl: 'https://www.integuer.do',
       description: `Integuer S.R.L. nace en el 2010 como un emprendimíento de su actual Presidente el Ing. Martín José Santos Casado en su retorno al país después de un período profesional y vital de 18 años por Europa, siendo el posicionamiento de la compañía "Software y soluciones para la gestión de empresas". Integuer ha desarrollado diferentes proyectos para destacadas empresas tanto en el sector público como en el sector privado.`
-    }
+    },
+    {
+      id: 'hbr-group',
+      name: 'HBR Group',
+      logoUrl: 'http://hbrgroup.com.do/images/logo-site.png',
+      websiteUrl: 'http://hbrgroup.com.do',
+      description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
+
+      Nuestra principal fortaleza es un equipo humano altamente especializado con una gran diversidad y profundidad de conocimientos en el desarrollo de productos bancarios, el cual se adapta al estilo de trabajo de sus diferentes clientes. En adición, un equipo de dirección con una vasta experiencia en la banca, cuya iniciativa empresarial ha sido dirigida exclusivamente al sector financiero-bancario.
+
+      Nuestra propuesta a las empresas de dicho entorno le aporta un importante matiz: el uso de nuevas tecnologías y un completo análisis previo, así como nuestro conocimiento de los retos que enfrenta la banca de hoy en día.
+
+      Nuestra empresa posee fortalezas en Consultorías, Gestión de Proyectos y Desarrollos de Aplicaciones Verticales. Esto se debe a que contamos con el personal adecuado e identificado con las necesidades de nuestros clientes.
+
+      Somos una empresa de servicios, conocedores de las necesidades esenciales de nuestros clientes ya que hemos laborado en diversas instituciones bancarias. Esto nos hace poseedores de experiencia laboral adquirida a través del tiempo por la ejecución de grandes proyectos relacionados al sector que orientamos nuestros productos y servicios.`
+    },
+    {
+      id: 'hidden',
+      name: 'HBR Group',
+      logoUrl: 'http://hbrgroup.com.do/images/logo-site.png',
+      websiteUrl: 'http://hbrgroup.com.do',
+      description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
+
+      Nuestra principal fortaleza es un equipo humano altamente especializado con una gran diversidad y profundidad de conocimientos en el desarrollo de productos bancarios, el cual se adapta al estilo de trabajo de sus diferentes clientes. En adición, un equipo de dirección con una vasta experiencia en la banca, cuya iniciativa empresarial ha sido dirigida exclusivamente al sector financiero-bancario.
+
+      Nuestra propuesta a las empresas de dicho entorno le aporta un importante matiz: el uso de nuevas tecnologías y un completo análisis previo, así como nuestro conocimiento de los retos que enfrenta la banca de hoy en día.
+
+      Nuestra empresa posee fortalezas en Consultorías, Gestión de Proyectos y Desarrollos de Aplicaciones Verticales. Esto se debe a que contamos con el personal adecuado e identificado con las necesidades de nuestros clientes.
+
+      Somos una empresa de servicios, conocedores de las necesidades esenciales de nuestros clientes ya que hemos laborado en diversas instituciones bancarias. Esto nos hace poseedores de experiencia laboral adquirida a través del tiempo por la ejecución de grandes proyectos relacionados al sector que orientamos nuestros productos y servicios.`
+    },
+    {
+      id: 'hidden',
+      name: 'HBR Group',
+      logoUrl: 'http://hbrgroup.com.do/images/logo-site.png',
+      websiteUrl: 'http://hbrgroup.com.do',
+      description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
+
+      Nuestra principal fortaleza es un equipo humano altamente especializado con una gran diversidad y profundidad de conocimientos en el desarrollo de productos bancarios, el cual se adapta al estilo de trabajo de sus diferentes clientes. En adición, un equipo de dirección con una vasta experiencia en la banca, cuya iniciativa empresarial ha sido dirigida exclusivamente al sector financiero-bancario.
+
+      Nuestra propuesta a las empresas de dicho entorno le aporta un importante matiz: el uso de nuevas tecnologías y un completo análisis previo, así como nuestro conocimiento de los retos que enfrenta la banca de hoy en día.
+
+      Nuestra empresa posee fortalezas en Consultorías, Gestión de Proyectos y Desarrollos de Aplicaciones Verticales. Esto se debe a que contamos con el personal adecuado e identificado con las necesidades de nuestros clientes.
+
+      Somos una empresa de servicios, conocedores de las necesidades esenciales de nuestros clientes ya que hemos laborado en diversas instituciones bancarias. Esto nos hace poseedores de experiencia laboral adquirida a través del tiempo por la ejecución de grandes proyectos relacionados al sector que orientamos nuestros productos y servicios.`
+    },
+
   ];
 
   constructor() { }
+
+  getAll() {
+    return this.clients;
+  }
 }
