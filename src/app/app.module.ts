@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { ClientsModule } from './clients/clients.module';
+import { CertificationsModule } from './certifications/certifications.module';
 
 @NgModule({
   declarations: [ AppComponent ],
