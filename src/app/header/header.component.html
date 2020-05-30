@@ -1,17 +1,21 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 
-  <a class="nav-brand" style="cursor: pointer;" routerLink="clients">
-    <img class="navbar-brand" src="../assets/logo.png" alt="Logo">
-  </a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <ul class="navbar-nav ml-auto">
-    <li class="nav-item">
-      <a style="cursor: pointer;" routerLink="certifications" class="nav-link">Certifications</a>
-    </li>
-    <li class="nav-item">
-      <a
-        href="https://drive.google.com/file/d/1x-sEB2Mz3aHV7EDAoILOlDXE_55MX4c0/view?usp=sharing"
-        target="_blank" class="nav-link">Resume</a>
-    </li>
-  </ul>
+  <div class="collapse navbar-collapse" id="collapse_target">
+    <a class="nav-brand" style="cursor: pointer;" routerLink="clients">
+      <img class="navbar-brand" src="../assets/logo.png" alt="Logo">
+    </a>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a style="cursor: pointer;" routerLink="certifications" class="nav-link">Certifications</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://drive.google.com/file/d/1x-sEB2Mz3aHV7EDAoILOlDXE_55MX4c0/view?usp=sharing" target="_blank" class="nav-link">Resume</a>
+      </li>
+    </ul>
+  </div>
 </nav>
