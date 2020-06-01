@@ -9,11 +9,9 @@ import { Client } from 'src/app/clients/client.model';
   styleUrls: ['./clients.component.css']
 })
 export class ClientsComponent implements OnInit {
-  groupClients: GroupClient[] = [];
 
-  constructor(private clientService: ClientService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.groupClients = this.clientService.getByGroup(3);
   }
 }
