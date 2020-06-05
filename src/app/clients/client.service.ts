@@ -178,8 +178,12 @@ export class ClientService {
 
   constructor() { }
 
-  getAll() {
+  getAll(): Array<Client> {
     return this.clients;
+  }
+
+  getById(id: string): Client {
+    return this.clients.find(client => client.id === id);
   }
 
   getByGroup(groupOf: number) {

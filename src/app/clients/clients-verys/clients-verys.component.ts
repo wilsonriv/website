@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Client } from '../client.model';
+import { ClientService } from '../client.service';
 
 @Component({
   selector: 'app-clients-verys',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./clients-verys.component.css']
 })
 export class ClientsVerysComponent implements OnInit {
+  client: Client;
 
-  constructor() { }
+  constructor(private clientService: ClientService) { }
 
   ngOnInit(): void {
+    this.client = this.clientService.getById('verys');
   }
 
 }
