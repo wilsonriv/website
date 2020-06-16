@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ClientService } from '../client.service';
 import { Client } from '../client.model';
+import { PWC } from '../clients.constants';
 
 @Component({
   selector: 'app-clients-pwc',
@@ -13,6 +14,6 @@ export class ClientsPwcComponent implements OnInit {
   constructor(private clientService: ClientService) { }
 
   ngOnInit(): void {
-    this.client = this.clientService.getById('pwc');
+    this.client = this.clientService.getById(PWC);
   }
 }

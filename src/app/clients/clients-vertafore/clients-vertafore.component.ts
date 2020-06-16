@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Client } from '../client.model';
 import { ClientService } from '../client.service';
+import { VERTAFORE } from '../clients.constants';
 
 @Component({
   selector: 'app-clients-vertafore',
@@ -13,6 +14,6 @@ export class ClientsVertaforeComponent implements OnInit {
   constructor(private clientService: ClientService) { }
 
   ngOnInit(): void {
-    this.client = this.clientService.getById('vertafore');
+    this.client = this.clientService.getById(VERTAFORE);
   }
 }

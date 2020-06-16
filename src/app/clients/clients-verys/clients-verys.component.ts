@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Client } from '../client.model';
 import { ClientService } from '../client.service';
+import { VERYS } from '../clients.constants';
 
 @Component({
   selector: 'app-clients-verys',
@@ -13,7 +14,7 @@ export class ClientsVerysComponent implements OnInit {
   constructor(private clientService: ClientService) { }
 
   ngOnInit(): void {
-    this.client = this.clientService.getById('verys');
+    this.client = this.clientService.getById(VERYS);
   }
 
 }
