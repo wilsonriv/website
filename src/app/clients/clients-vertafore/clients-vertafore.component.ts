@@ -15,6 +15,4 @@ export class ClientsVertaforeComponent implements OnInit {
   ngOnInit(): void {
     this.client = this.clientService.getById('vertafore');
   }
-
-
 }
