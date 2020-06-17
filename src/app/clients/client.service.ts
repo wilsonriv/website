@@ -31,6 +31,13 @@ export class ClientService {
       PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. Please see www.pwc.com/structure for further details. The firms that make up the PwC network are committed to working together to provide quality service offerings for clients throughout the world. Firms in the PwC network are members in, or have other connections to, PricewaterhouseCoopers International Limited (PwCIL), an English private company limited by guarantee. PwCIL does not practise accountancy or provide services to clients.`
     },
     {
+      id: 'oc',
+      name: 'Option Care Health',
+      logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQEwetUjlIe59A/company-logo_200_200/0?e=1600300800&v=beta&t=CLOrZwHoGDhxIrO0ZDQ2piU5ywwt0elp5zCpEry1fzw',
+      websiteUrl: 'https://optioncarehealth.com',
+      description: `As of August 7, 2019, Option Care and BioScrip have merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates including 2,900 clinicians, we work compassionately to elevate standards of care for patients with acute and chronic conditions in all 50 states. Through our clinical leadership, expertise and national scale, Option Care Health is reimagining the infusion care experience for patients, customers and employees.`
+    },
+    {
       id: 'senegence',
       name: 'SeneGence International',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQESV6Y9cW0XHA/company-logo_200_200/0?e=1597276800&v=beta&t=7IW1jE2teurtEwO6lS-qHUyzNVBIDo0LMkB2fyTrz0Q',
