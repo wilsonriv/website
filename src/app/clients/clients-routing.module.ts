@@ -19,6 +19,7 @@ import { ClientsTechnossusComponent } from './clients-technossus/clients-technos
         { path: 'pwc', component: ClientsPwcComponent },
         { path: 'oc', component: ClientsOptioncareComponent },
         { path: 'senegence', component: ClientsSenegenceComponent },
+        { path: 'technossus', component: ClientsTechnossusComponent },
         { path: 'technossus', component: ClientsTechnossusComponent }
       ]
     }

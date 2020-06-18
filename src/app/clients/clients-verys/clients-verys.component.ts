@@ -1,20 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { Client } from '../client.model';
 import { ClientService } from '../client.service';
 import { VERYS } from '../clients.constants';
+import { ClientBase } from '../client-base';
 
 @Component({
   selector: 'app-clients-verys',
   templateUrl: './clients-verys.component.html',
   styleUrls: ['./clients-verys.component.css']
 })
-export class ClientsVerysComponent implements OnInit {
-  client: Client;
+export class ClientsVerysComponent extends ClientBase {
 
-  constructor(private clientService: ClientService) { }
-
-  ngOnInit(): void {
-    this.client = this.clientService.getById(VERYS);
+  constructor(public clientService: ClientService) {
+    super(clientService, VERYS);
   }
-
 }

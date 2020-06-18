@@ -1,19 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { ClientService } from '../client.service';
-import { Client } from '../client.model';
 import { PWC } from '../clients.constants';
+import { ClientBase } from '../client-base';
 
 @Component({
   selector: 'app-clients-pwc',
   templateUrl: './clients-pwc.component.html',
   styleUrls: ['./clients-pwc.component.css']
 })
-export class ClientsPwcComponent implements OnInit {
-  client: Client;
+export class ClientsPwcComponent extends ClientBase {
 
-  constructor(private clientService: ClientService) { }
-
-  ngOnInit(): void {
-    this.client = this.clientService.getById(PWC);
+  constructor(public clientService: ClientService) {
+    super(clientService, PWC);
   }
 }
