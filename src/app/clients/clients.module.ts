@@ -8,9 +8,10 @@ import { ClientsVertaforeComponent } from './clients-vertafore/clients-vertafore
 import { ClientsPwcComponent } from './clients-pwc/clients-pwc.component';
 import { ClientsSenegenceComponent } from './clients-senegence/clients-senegence.component';
 import { ClientsOptioncareComponent } from './clients-optioncare/clients-optioncare.component';
+import { ClientsTechnossusComponent } from './clients-technossus/clients-technossus.component';
 
 @NgModule({
-  declarations: [ClientsComponent, ClientsListComponent, ClientsVerysComponent, ClientsVertaforeComponent, ClientsPwcComponent, ClientsSenegenceComponent, ClientsOptioncareComponent],
+  declarations: [ClientsComponent, ClientsListComponent, ClientsVerysComponent, ClientsVertaforeComponent, ClientsPwcComponent, ClientsSenegenceComponent, ClientsOptioncareComponent, ClientsTechnossusComponent],
   imports: [
     ClientsRoutingModule,
     SharedModule

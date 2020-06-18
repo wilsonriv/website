@@ -7,6 +7,7 @@ import { ClientsVertaforeComponent } from './clients-vertafore/clients-vertafore
 import { ClientsPwcComponent } from './clients-pwc/clients-pwc.component';
 import { ClientsSenegenceComponent } from './clients-senegence/clients-senegence.component';
 import { ClientsOptioncareComponent } from './clients-optioncare/clients-optioncare.component';
+import { ClientsTechnossusComponent } from './clients-technossus/clients-technossus.component';
 
 @NgModule({
   imports: [RouterModule.forChild([
@@ -17,7 +18,8 @@ import { ClientsOptioncareComponent } from './clients-optioncare/clients-optionc
         { path: 'vertafore', component: ClientsVertaforeComponent },
         { path: 'pwc', component: ClientsPwcComponent },
         { path: 'oc', component: ClientsOptioncareComponent },
-        { path: 'senegence', component: ClientsSenegenceComponent }
+        { path: 'senegence', component: ClientsSenegenceComponent },
+        { path: 'technossus', component: ClientsTechnossusComponent }
       ]
     }
   ])],

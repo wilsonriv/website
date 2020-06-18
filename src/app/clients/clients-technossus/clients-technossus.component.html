@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="logon-container text-center">
+    <a [href]="client.websiteUrl" target="_blank">
+      <img [src]="client.logoUrl" class="rounded-circle" [alt]="client.name">
+    </a>
+  </div>
+
+  <h2><a [href]="client.websiteUrl" target="_blank">{{ client.name }}</a></h2>
+  <p>
+    Technossus enables business acceleration and transformation for companies in the Healthcare, Financial Services, and Bio-Sciences Industries; thru a range of solutions around Outcome-based Roadmaps, Cloud Strategy & Transformation, and Technology Platform Optimization.
+  </p>
+
+  <p>
+    While at <strong>{{client.name}}</strong> I've had the opportunity to work with
+    different clients:
+  </p>
+  <ul>
+    <li><a>Glidewell Dental</a></li>
+    <li><a>Bio-Rad Laboratories</a></li>
+    <li><a>Dignity Health</a></li>
+    <li><a>Amare Global</a></li>
+  </ul>
+</div>
