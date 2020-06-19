@@ -8,19 +8,21 @@ import { ClientsPwcComponent } from './clients-pwc/clients-pwc.component';
 import { ClientsSenegenceComponent } from './clients-senegence/clients-senegence.component';
 import { ClientsOptioncareComponent } from './clients-optioncare/clients-optioncare.component';
 import { ClientsTechnossusComponent } from './clients-technossus/clients-technossus.component';
+import { ClientsGlidewellComponent } from './clients-glidewell/clients-glidewell.component';
+import { GLIDEWELL, VERYS, VERTAFORE, PWC, OPTION_CARE, SENEGENCE, TECHNOSSUS } from './clients.constants';
 
 @NgModule({
   imports: [RouterModule.forChild([
     {
       path: 'clients', component: ClientsComponent, children: [
         { path: '', component: ClientsListComponent },
-        { path: 'verys', component: ClientsVerysComponent },
-        { path: 'vertafore', component: ClientsVertaforeComponent },
-        { path: 'pwc', component: ClientsPwcComponent },
-        { path: 'oc', component: ClientsOptioncareComponent },
-        { path: 'senegence', component: ClientsSenegenceComponent },
-        { path: 'technossus', component: ClientsTechnossusComponent },
-        { path: 'technossus', component: ClientsTechnossusComponent }
+        { path: VERYS, component: ClientsVerysComponent },
+        { path: VERTAFORE, component: ClientsVertaforeComponent },
+        { path: PWC, component: ClientsPwcComponent },
+        { path: OPTION_CARE, component: ClientsOptioncareComponent },
+        { path: SENEGENCE, component: ClientsSenegenceComponent },
+        { path: TECHNOSSUS, component: ClientsTechnossusComponent },
+        { path: GLIDEWELL, component: ClientsGlidewellComponent }
       ]
     }
   ])],
