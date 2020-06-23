@@ -10,6 +10,7 @@ export class ClientService {
     {
       id: 'verys',
       name: 'Verys',
+      title: 'Verys',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQGHRg2CHTyrZw/company-logo_200_200/0?e=1597276800&v=beta&t=0aMUXTXkw_ciZK7bIvQGCBrpJCPMF-1HyM6ZkfQ4t1I',
       websiteUrl: 'https://verys.com',
       description: `We provide end-to-end design and technology web and mobile services utilizing a local, onshore delivery model.`
@@ -17,6 +18,7 @@ export class ClientService {
     {
       id: 'vertafore',
       name: 'Vertafore',
+      title: 'Vertafore [Contract]',
       logoUrl: 'https://www.vertafore.com/themes/custom/themekit/logo.svg',
       websiteUrl: 'https://www.vertafore.com',
       description: `Vertafore is the leader in creating modern insurance technology. Every day thousands of insurance agencies, carriers and states use a breadth of Vertafore solutions to grow their businesses, process claims for their customers and much more. Click on the Careers tab to learn more about opportunities with us!`
@@ -24,6 +26,7 @@ export class ClientService {
     {
       id: 'pwc',
       name: 'PwC',
+      title: 'PwC [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQFR46llmlEDrw/company-logo_200_200/0?e=1597881600&v=beta&t=SL5TW5bFo41EWs6WEWrveSz7jNA5S6QfqtmyhFvJH5k',
       websiteUrl: 'https://www.pwc.com/gx/en',
       description: `PwC helps organizations and individuals create the value they're looking for. We're a network of firms in 157 countries with more than 276,000 people.
@@ -33,6 +36,7 @@ export class ClientService {
     {
       id: 'oc',
       name: 'Option Care Health',
+      title: 'Option Care Health [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQEwetUjlIe59A/company-logo_200_200/0?e=1600300800&v=beta&t=CLOrZwHoGDhxIrO0ZDQ2piU5ywwt0elp5zCpEry1fzw',
       websiteUrl: 'https://optioncarehealth.com',
       description: `As of August 7, 2019, Option Care and BioScrip have merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates including 2,900 clinicians, we work compassionately to elevate standards of care for patients with acute and chronic conditions in all 50 states. Through our clinical leadership, expertise and national scale, Option Care Health is reimagining the infusion care experience for patients, customers and employees.`
@@ -40,6 +44,7 @@ export class ClientService {
     {
       id: 'senegence',
       name: 'SeneGence International',
+      title: 'SeneGence International',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQESV6Y9cW0XHA/company-logo_200_200/0?e=1597276800&v=beta&t=7IW1jE2teurtEwO6lS-qHUyzNVBIDo0LMkB2fyTrz0Q',
       websiteUrl: 'https://senegence.com',
       description: `SeneGence International allows beauty lovers from all walks of life to choose to live life in love and abundance...And then work for it!
@@ -58,6 +63,7 @@ export class ClientService {
     {
       id: 'technossus',
       name: 'Technossus',
+      title: 'Technossus',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQFR0gAmfCZMVg/company-logo_200_200/0?e=1597276800&v=beta&t=WPzxBPypEKYpevoaxzzWzio_vmvPfEQFKVoxRB-8kGY',
       websiteUrl: 'http://www.technossus.com',
       description: `Technossus enables business acceleration and transformation for companies in the Healthcare, Financial Services, and Bio-Sciences Industries; thru a range of solutions around Outcome-based Roadmaps, Cloud Strategy & Transformation, and Technology Platform Optimization.
@@ -73,6 +79,7 @@ export class ClientService {
     {
       id: 'glidewell',
       name: 'Glidewell Dental',
+      title: 'Glidewell Dental [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQEuJ-fK_Ny7pA/company-logo_200_200/0?e=1597276800&v=beta&t=bFCNS-i-TY83f3pE4U6rxr7BLpCa1c2Dd0bZTu7qHJs',
       websiteUrl: 'http://www.glidewelldental.com',
       description: `Glidewell Dental's mission is to drive down restorative costs and expand patient access to affordable dentistry.  Glidewell Dental offers dental products and services in partnership with dentists, dental laboratories and manufacturers to promote and restore clinical health. One of the largest dental labs in the world and a medical device manufacturer, the company operates from four locations worldwide.
@@ -82,6 +89,7 @@ export class ClientService {
     {
       id: 'bio-rad',
       name: 'Bio-Rad Laboratories',
+      title: 'Bio-Rad Laboratories [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhlNN99A20IA/company-logo_200_200/0?e=1597276800&v=beta&t=oJ5uuzk7qSZrUnutobotcGDjTDuGJcQzGp0ww1OY-ic',
       websiteUrl: 'http://www.bio-rad.com',
       description: `Since Bio-Rad was founded over six decades ago, we have continued to provide the healthcare industry with innovative and useful products that help life science researchers accelerate the discovery process and medical diagnostic labs obtain faster, better results. Throughout our existence, we have built long-lasting customer relationships that help advance our research and development efforts in the introduction of new products and solutions. Today, Bio-Rad is a global leader, with a team of over 8,000 employees and a global network of operations that serves our life science research and clinical diagnostics customers, helping people live longer, healthier lives.`
@@ -89,6 +97,7 @@ export class ClientService {
     {
       id: 'dignity-health',
       name: 'Dignity Health',
+      title: 'Dignity Health [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG1OtNHbC7pBA/company-logo_200_200/0?e=1597276800&v=beta&t=CU5L7cxud2ufFqfbN29WxUjyqlNybviAY8Sa8cyHPr0',
       websiteUrl: 'http://www.dignityhealth.org',
       description: `We provide quality, compassionate health care at more than 40 hospitals and care centers that are serving communities across California, Arizona and Nevada every minute of every day. And while not everyone may live near a major medical facility, Dignity Health is making health care more accessible by bringing resources closer to where people live and work.
@@ -100,6 +109,7 @@ export class ClientService {
     {
       id: 'amare-global',
       name: 'Amare Global',
+      title: 'Amare Global [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQE_yxGZvFnXgw/company-logo_200_200/0?e=1597276800&v=beta&t=Q5hBi9EVQ8Srg1_PrzpWgBpenBgFozPZnBtPRb5wL5Y',
       websiteUrl: 'http://www.amareglobal.com',
       description: `Amare Global creates a holistic mental wellness platform that connects a purpose-driven community of passionate people. Our vision is to lead the mental wellness revolution.
@@ -113,6 +123,7 @@ export class ClientService {
     {
       id: 'tega-technologies',
       name: 'Tega Technologies',
+      title: 'Tega Technologies',
       logoUrl: 'https://yt3.ggpht.com/a/AATXAJxNau80N6Pua7QgVx9VlwTTRNSmP0wHyBpdTw=s100-c-k-c0xffffffff-no-rj-mo',
       websiteUrl: 'https://tegatechnologies.com',
       description: `In 2018, Helm Technologies acquired Tega Technologies, which was founded in 2005.  Helm Technologies has rapidly evolved by embracing advanced technology and marketing expertise to form solutions for businesses and organizations that want to communicate more effectively with their customers and members.
@@ -122,6 +133,7 @@ export class ClientService {
     {
       id: 'wind-telecom',
       name: 'WIND telecom',
+      title: 'WIND telecom',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG9zwsi9EYcbQ/company-logo_200_200/0?e=1597276800&v=beta&t=G7aoGzrG9wJTEhI3Qp6qoOYRDzGW2q2z-G3WG4mGyYY',
       websiteUrl: 'http://www.wind.com.do',
       description: `WIND TELECOM, S. A. es una empresa de telecomunicaciones en República Dominicana, cuyo enfoque es brindar servicios integrados de Voz, Televisión Digital e Internet a nuestros clientes personales, así como servicios especializados a empresas, instituciones y a otras prestadores de servicios, garantizando calidad, costo y entrega. Nuestra red de voz y datos es completamente IP; además está basada primordialmente en tecnología WiMax, apoyándose también en accesos punto a punto por microondas y redes de fibra óptica para el transporte de grandes volúmenes de información. Nuestra red de video está basada en MMDS (Multichannel Multipoint Distribution System).
@@ -131,6 +143,7 @@ export class ClientService {
     {
       id: 'integuer',
       name: 'Integuer',
+      title: 'Integuer',
       logoUrl: 'https://www.integuer.do/Content/Imagery/integuer_brand.png',
       websiteUrl: 'https://www.integuer.do',
       description: `Integuer S.R.L. nace en el 2010 como un emprendimíento de su actual Presidente el Ing. Martín José Santos Casado en su retorno al país después de un período profesional y vital de 18 años por Europa, siendo el posicionamiento de la compañía "Software y soluciones para la gestión de empresas". Integuer ha desarrollado diferentes proyectos para destacadas empresas tanto en el sector público como en el sector privado.`
@@ -138,6 +151,7 @@ export class ClientService {
     {
       id: 'hbr-group',
       name: 'HBR Group',
+      title: 'HBR Group',
       logoUrl: 'http://hbrgroup.com.do/images/logo-site.png',
       websiteUrl: 'http://hbrgroup.com.do',
       description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
@@ -153,6 +167,7 @@ export class ClientService {
     {
       id: 'hidden',
       name: 'HBR Group',
+      title: 'HBR Group',
       logoUrl: 'http://hbrgroup.com.do/images/logo-site.png',
       websiteUrl: 'http://hbrgroup.com.do',
       description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
@@ -168,6 +183,7 @@ export class ClientService {
     {
       id: 'hidden',
       name: 'HBR Group',
+      title: 'HBR Group',
       logoUrl: 'http://hbrgroup.com.do/images/logo-site.png',
       websiteUrl: 'http://hbrgroup.com.do',
       description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
