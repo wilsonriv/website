@@ -5,3 +5,4 @@ export const OPTION_CARE = 'oc';
 export const SENEGENCE = 'senegence';
 export const TECHNOSSUS = 'technossus';
 export const GLIDEWELL = 'glidewell';
+export const BIORAD = 'biorad';

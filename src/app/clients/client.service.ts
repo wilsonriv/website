@@ -87,7 +87,7 @@ export class ClientService {
       Glidewell Dental is a dental industry leader thanks to its innovative dental technology, resourceful R&D department, and dedication to providing free clinical and technical education to promote dental industry growth. As new advancements continue to redefine dental technology, Glidewell Dental remains dedicated to improved CAD/CAM processes and development. The lab has made great strides in case-to-case consistency using this technology, which allows digital impressions to be sent electronically, reducing costs and improving turnaround time.`
     },
     {
-      id: 'bio-rad',
+      id: 'biorad',
       name: 'Bio-Rad Laboratories',
       title: 'Bio-Rad Laboratories [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhlNN99A20IA/company-logo_200_200/0?e=1597276800&v=beta&t=oJ5uuzk7qSZrUnutobotcGDjTDuGJcQzGp0ww1OY-ic',
