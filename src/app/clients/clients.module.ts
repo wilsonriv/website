@@ -12,9 +12,10 @@ import { ClientsTechnossusComponent } from './clients-technossus/clients-technos
 import { ClientsGlidewellComponent } from './clients-glidewell/clients-glidewell.component';
 import { ClientsBioradComponent } from './clients-biorad/clients-biorad.component';
 import { ClientsDignityhealthComponent } from './clients-dignityhealth/clients-dignityhealth.component';
+import { ClientsAmareglobalComponent } from './clients-amareglobal/clients-amareglobal.component';
 
 @NgModule({
-  declarations: [ClientsComponent, ClientsListComponent, ClientsVerysComponent, ClientsVertaforeComponent, ClientsPwcComponent, ClientsSenegenceComponent, ClientsOptioncareComponent, ClientsTechnossusComponent, ClientsGlidewellComponent, ClientsBioradComponent, ClientsDignityhealthComponent],
+  declarations: [ClientsComponent, ClientsListComponent, ClientsVerysComponent, ClientsVertaforeComponent, ClientsPwcComponent, ClientsSenegenceComponent, ClientsOptioncareComponent, ClientsTechnossusComponent, ClientsGlidewellComponent, ClientsBioradComponent, ClientsDignityhealthComponent, ClientsAmareglobalComponent],
   imports: [
     ClientsRoutingModule,
     SharedModule

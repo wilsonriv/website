@@ -107,7 +107,7 @@ export class ClientService {
       With several different ways to activate your search, let us help you to quickly and easily find an affordable, quality medical facility located close to where you need it, when you need it.`
     },
     {
-      id: 'amare-global',
+      id: 'amareglobal',
       name: 'Amare Global',
       title: 'Amare Global [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQE_yxGZvFnXgw/company-logo_200_200/0?e=1597276800&v=beta&t=Q5hBi9EVQ8Srg1_PrzpWgBpenBgFozPZnBtPRb5wL5Y',

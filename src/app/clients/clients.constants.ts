@@ -7,3 +7,4 @@ export const TECHNOSSUS = 'technossus';
 export const GLIDEWELL = 'glidewell';
 export const BIORAD = 'biorad';
 export const DIGNITY_HEALTH = 'dignityhealth';
+export const AMARE_GLOBAL = 'amareglobal';
