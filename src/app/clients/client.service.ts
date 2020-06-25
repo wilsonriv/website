@@ -121,7 +121,7 @@ export class ClientService {
       Thus, Amare Global was created. We focus on the excellence and integrity throughout our product development, people development, and the customer experience. Ultimately, we strive to create products that will inspire people to become better versions of themselves. Amare means "To Love"​ in Latin and we believe in promoting Love for one's self, as well as a powerful connection with others. By empowering people to connect through our innovative products and platform, we will grow together and reach beyond our limits.`
     },
     {
-      id: 'tega-technologies',
+      id: 'tegatechnologies',
       name: 'Tega Technologies',
       title: 'Tega Technologies',
       logoUrl: 'https://yt3.ggpht.com/a/AATXAJxNau80N6Pua7QgVx9VlwTTRNSmP0wHyBpdTw=s100-c-k-c0xffffffff-no-rj-mo',
