@@ -9,3 +9,4 @@ export const BIORAD = 'biorad';
 export const DIGNITY_HEALTH = 'dignityhealth';
 export const AMARE_GLOBAL = 'amareglobal';
 export const TEGA_TECHNOLOGIES = 'tegatechnologies';
+export const WIND_TELECOM = 'windtelecom';

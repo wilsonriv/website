@@ -131,7 +131,7 @@ export class ClientService {
       Helm leads the mobile marketing industry in innovation by automating on-demand marketing campaigns based on specific customer and member behaviors and interests for most industry verticals with specific emphasis on retail sales and automotive dealerships.`
     },
     {
-      id: 'wind-telecom',
+      id: 'windtelecom',
       name: 'WIND telecom',
       title: 'WIND telecom',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG9zwsi9EYcbQ/company-logo_200_200/0?e=1597276800&v=beta&t=G7aoGzrG9wJTEhI3Qp6qoOYRDzGW2q2z-G3WG4mGyYY',
