@@ -15,9 +15,10 @@ import { ClientsDignityhealthComponent } from './clients-dignityhealth/clients-d
 import { ClientsAmareglobalComponent } from './clients-amareglobal/clients-amareglobal.component';
 import { ClientsTegatechnologiesComponent } from './clients-tegatechnologies/clients-tegatechnologies.component';
 import { ClientsWindtelecomComponent } from './clients-windtelecom/clients-windtelecom.component';
+import { ClientsInteguerComponent } from './clients-integuer/clients-integuer.component';
 
 @NgModule({
-  declarations: [ClientsComponent, ClientsListComponent, ClientsVerysComponent, ClientsVertaforeComponent, ClientsPwcComponent, ClientsSenegenceComponent, ClientsOptioncareComponent, ClientsTechnossusComponent, ClientsGlidewellComponent, ClientsBioradComponent, ClientsDignityhealthComponent, ClientsAmareglobalComponent, ClientsTegatechnologiesComponent, ClientsWindtelecomComponent],
+  declarations: [ClientsComponent, ClientsListComponent, ClientsVerysComponent, ClientsVertaforeComponent, ClientsPwcComponent, ClientsSenegenceComponent, ClientsOptioncareComponent, ClientsTechnossusComponent, ClientsGlidewellComponent, ClientsBioradComponent, ClientsDignityhealthComponent, ClientsAmareglobalComponent, ClientsTegatechnologiesComponent, ClientsWindtelecomComponent, ClientsInteguerComponent],
   imports: [
     ClientsRoutingModule,
     SharedModule
