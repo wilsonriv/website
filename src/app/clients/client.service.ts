@@ -149,7 +149,7 @@ export class ClientService {
       description: `Integuer S.R.L. nace en el 2010 como un emprendimíento de su actual Presidente el Ing. Martín José Santos Casado en su retorno al país después de un período profesional y vital de 18 años por Europa, siendo el posicionamiento de la compañía "Software y soluciones para la gestión de empresas". Integuer ha desarrollado diferentes proyectos para destacadas empresas tanto en el sector público como en el sector privado.`
     },
     {
-      id: 'hbr-group',
+      id: 'hbrgroup',
       name: 'HBR Group',
       title: 'HBR Group',
       logoUrl: 'http://hbrgroup.com.do/images/logo-site.png',

@@ -9,13 +9,14 @@ import { ClientsSenegenceComponent } from './clients-senegence/clients-senegence
 import { ClientsOptioncareComponent } from './clients-optioncare/clients-optioncare.component';
 import { ClientsTechnossusComponent } from './clients-technossus/clients-technossus.component';
 import { ClientsGlidewellComponent } from './clients-glidewell/clients-glidewell.component';
-import { GLIDEWELL, VERYS, VERTAFORE, PWC, OPTION_CARE, SENEGENCE, TECHNOSSUS, BIORAD, DIGNITY_HEALTH, AMARE_GLOBAL, TEGA_TECHNOLOGIES, WIND_TELECOM, INTEGUER } from './clients.constants';
+import { GLIDEWELL, VERYS, VERTAFORE, PWC, OPTION_CARE, SENEGENCE, TECHNOSSUS, BIORAD, DIGNITY_HEALTH, AMARE_GLOBAL, TEGA_TECHNOLOGIES, WIND_TELECOM, INTEGUER, HBR_GROUP } from './clients.constants';
 import { ClientsBioradComponent } from './clients-biorad/clients-biorad.component';
 import { ClientsDignityhealthComponent } from './clients-dignityhealth/clients-dignityhealth.component';
 import { ClientsAmareglobalComponent } from './clients-amareglobal/clients-amareglobal.component';
 import { ClientsTegatechnologiesComponent } from './clients-tegatechnologies/clients-tegatechnologies.component';
 import { ClientsWindtelecomComponent } from './clients-windtelecom/clients-windtelecom.component';
 import { ClientsInteguerComponent } from './clients-integuer/clients-integuer.component';
+import { ClientsHbrgroupComponent } from './clients-hbrgroup/clients-hbrgroup.component';
 
 @NgModule({
   imports: [RouterModule.forChild([
@@ -34,7 +35,8 @@ import { ClientsInteguerComponent } from './clients-integuer/clients-integuer.co
         { path: AMARE_GLOBAL, component: ClientsAmareglobalComponent },
         { path: TEGA_TECHNOLOGIES, component: ClientsTegatechnologiesComponent },
         { path: WIND_TELECOM, component: ClientsWindtelecomComponent },
-        { path: INTEGUER, component: ClientsInteguerComponent }
+        { path: INTEGUER, component: ClientsInteguerComponent },
+        { path: HBR_GROUP, component: ClientsHbrgroupComponent }
       ]
     }
   ])],
