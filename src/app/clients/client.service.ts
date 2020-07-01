@@ -10,7 +10,7 @@ export class ClientService {
     {
       id: 'verys',
       name: 'Verys',
-      title: 'Verys',
+      title: 'Verys - Remote',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQGHRg2CHTyrZw/company-logo_200_200/0?e=1597276800&v=beta&t=0aMUXTXkw_ciZK7bIvQGCBrpJCPMF-1HyM6ZkfQ4t1I',
       websiteUrl: 'https://verys.com',
       description: `We provide end-to-end design and technology web and mobile services utilizing a local, onshore delivery model.`
@@ -36,7 +36,7 @@ export class ClientService {
     {
       id: 'oc',
       name: 'Option Care Health',
-      title: 'Option Care Health [Contract]',
+      title: 'Option Care Health [Contract] - Remote',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQEwetUjlIe59A/company-logo_200_200/0?e=1600300800&v=beta&t=CLOrZwHoGDhxIrO0ZDQ2piU5ywwt0elp5zCpEry1fzw',
       websiteUrl: 'https://optioncarehealth.com',
       description: `As of August 7, 2019, Option Care and BioScrip have merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates including 2,900 clinicians, we work compassionately to elevate standards of care for patients with acute and chronic conditions in all 50 states. Through our clinical leadership, expertise and national scale, Option Care Health is reimagining the infusion care experience for patients, customers and employees.`
