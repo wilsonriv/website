@@ -4,10 +4,9 @@
       <img [src]="client.logoUrl" class="rounded-circle" [alt]="client.name">
     </a>
   </div>
-
-  <br><br>
+  <h2><a [href]="client.websiteUrl" target="_blank">{{ client.name }}</a></h2>
   <p>
-    <a [href]="client.websiteUrl" target="_blank"><strong>{{ client.name }}</strong></a>
+    {{ client.name }}
     specialties are Software Development, Web Development, Mobile Development,
     Full Stack, UX Design, Cloud Solutions, Native iOS, Native Android,
     Consulting, QA.
