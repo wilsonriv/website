@@ -16,12 +16,12 @@ export class ClientService {
       description: `We provide end-to-end design and technology web and mobile services utilizing a local, onshore delivery model.`
     },
     {
-      id: 'vertafore',
-      name: 'Vertafore',
-      title: 'Vertafore [Contract]',
-      logoUrl: 'https://www.vertafore.com/themes/custom/themekit/logo.svg',
-      websiteUrl: 'https://www.vertafore.com',
-      description: `Vertafore is the leader in creating modern insurance technology. Every day thousands of insurance agencies, carriers and states use a breadth of Vertafore solutions to grow their businesses, process claims for their customers and much more. Click on the Careers tab to learn more about opportunities with us!`
+      id: 'oc',
+      name: 'Option Care Health',
+      title: 'Option Care Health [Contract] - Remote',
+      logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQEwetUjlIe59A/company-logo_200_200/0?e=1600300800&v=beta&t=CLOrZwHoGDhxIrO0ZDQ2piU5ywwt0elp5zCpEry1fzw',
+      websiteUrl: 'https://optioncarehealth.com',
+      description: `As of August 7, 2019, Option Care and BioScrip have merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates including 2,900 clinicians, we work compassionately to elevate standards of care for patients with acute and chronic conditions in all 50 states. Through our clinical leadership, expertise and national scale, Option Care Health is reimagining the infusion care experience for patients, customers and employees.`
     },
     {
       id: 'pwc',
@@ -34,12 +34,12 @@ export class ClientService {
       PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. Please see www.pwc.com/structure for further details. The firms that make up the PwC network are committed to working together to provide quality service offerings for clients throughout the world. Firms in the PwC network are members in, or have other connections to, PricewaterhouseCoopers International Limited (PwCIL), an English private company limited by guarantee. PwCIL does not practise accountancy or provide services to clients.`
     },
     {
-      id: 'oc',
-      name: 'Option Care Health',
-      title: 'Option Care Health [Contract] - Remote',
-      logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQEwetUjlIe59A/company-logo_200_200/0?e=1600300800&v=beta&t=CLOrZwHoGDhxIrO0ZDQ2piU5ywwt0elp5zCpEry1fzw',
-      websiteUrl: 'https://optioncarehealth.com',
-      description: `As of August 7, 2019, Option Care and BioScrip have merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates including 2,900 clinicians, we work compassionately to elevate standards of care for patients with acute and chronic conditions in all 50 states. Through our clinical leadership, expertise and national scale, Option Care Health is reimagining the infusion care experience for patients, customers and employees.`
+      id: 'vertafore',
+      name: 'Vertafore',
+      title: 'Vertafore [Contract]',
+      logoUrl: 'https://www.vertafore.com/themes/custom/themekit/logo.svg',
+      websiteUrl: 'https://www.vertafore.com',
+      description: `Vertafore is the leader in creating modern insurance technology. Every day thousands of insurance agencies, carriers and states use a breadth of Vertafore solutions to grow their businesses, process claims for their customers and much more. Click on the Careers tab to learn more about opportunities with us!`
     },
     {
       id: 'senegence',
@@ -77,34 +77,12 @@ export class ClientService {
       As a committed leader, folks at Technossus spearhead efforts to give back to the local community through affiliations with The Boys and Girls Club of America and The OC Food Bank.`
     },
     {
-      id: 'glidewell',
-      name: 'Glidewell Dental',
-      title: 'Glidewell Dental [Contract]',
-      logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQEuJ-fK_Ny7pA/company-logo_200_200/0?e=1597276800&v=beta&t=bFCNS-i-TY83f3pE4U6rxr7BLpCa1c2Dd0bZTu7qHJs',
-      websiteUrl: 'http://www.glidewelldental.com',
-      description: `Glidewell Dental's mission is to drive down restorative costs and expand patient access to affordable dentistry.  Glidewell Dental offers dental products and services in partnership with dentists, dental laboratories and manufacturers to promote and restore clinical health. One of the largest dental labs in the world and a medical device manufacturer, the company operates from four locations worldwide.
-
-      Glidewell Dental is a dental industry leader thanks to its innovative dental technology, resourceful R&D department, and dedication to providing free clinical and technical education to promote dental industry growth. As new advancements continue to redefine dental technology, Glidewell Dental remains dedicated to improved CAD/CAM processes and development. The lab has made great strides in case-to-case consistency using this technology, which allows digital impressions to be sent electronically, reducing costs and improving turnaround time.`
-    },
-    {
       id: 'biorad',
       name: 'Bio-Rad Laboratories',
       title: 'Bio-Rad Laboratories [Contract]',
       logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHhlNN99A20IA/company-logo_200_200/0?e=1597276800&v=beta&t=oJ5uuzk7qSZrUnutobotcGDjTDuGJcQzGp0ww1OY-ic',
       websiteUrl: 'http://www.bio-rad.com',
       description: `Since Bio-Rad was founded over six decades ago, we have continued to provide the healthcare industry with innovative and useful products that help life science researchers accelerate the discovery process and medical diagnostic labs obtain faster, better results. Throughout our existence, we have built long-lasting customer relationships that help advance our research and development efforts in the introduction of new products and solutions. Today, Bio-Rad is a global leader, with a team of over 8,000 employees and a global network of operations that serves our life science research and clinical diagnostics customers, helping people live longer, healthier lives.`
-    },
-    {
-      id: 'dignityhealth',
-      name: 'Dignity Health',
-      title: 'Dignity Health [Contract]',
-      logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG1OtNHbC7pBA/company-logo_200_200/0?e=1597276800&v=beta&t=CU5L7cxud2ufFqfbN29WxUjyqlNybviAY8Sa8cyHPr0',
-      websiteUrl: 'http://www.dignityhealth.org',
-      description: `We provide quality, compassionate health care at more than 40 hospitals and care centers that are serving communities across California, Arizona and Nevada every minute of every day. And while not everyone may live near a major medical facility, Dignity Health is making health care more accessible by bringing resources closer to where people live and work.
-
-      In urban and rural communities alike, residents of all ages and backgrounds have access to primary care, preventive treatment, clinical support, chronic disease management, trauma services, and a host of medical and therapeutic specializations.
-
-      With several different ways to activate your search, let us help you to quickly and easily find an affordable, quality medical facility located close to where you need it, when you need it.`
     },
     {
       id: 'amareglobal',
@@ -119,6 +97,28 @@ export class ClientService {
       “For the next 5 years, I surrounded myself with the most successful people I knew, in order to grow and learn from them. Eventually that payments company I was working for was sold.  I reached an important crossroads: stay comfortable in my current position or build something for myself. In 2008, together with a partner, we invested all of our savings and co-founded a new company: Meritus Payment Solutions. We started from humble beginnings with five employees in 2008 and surged to over 100 employees by 2014 when we were acquired by Optimal Payments.  During those 6 years, I fell in love with helping people achieve their own life-changing success.  However, work always came first, family second, and personal health a distant third. I took my health for granted until the consequences became real.  Thankfully, I pulled through instead of succumbing to these challenges. I channeled the experience positively, to change my life and learn as much as I could about health and nutrition. The result was a newfound passion.”
 
       Thus, Amare Global was created. We focus on the excellence and integrity throughout our product development, people development, and the customer experience. Ultimately, we strive to create products that will inspire people to become better versions of themselves. Amare means "To Love"​ in Latin and we believe in promoting Love for one's self, as well as a powerful connection with others. By empowering people to connect through our innovative products and platform, we will grow together and reach beyond our limits.`
+    },
+    {
+      id: 'dignityhealth',
+      name: 'Dignity Health',
+      title: 'Dignity Health [Contract]',
+      logoUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQG1OtNHbC7pBA/company-logo_200_200/0?e=1597276800&v=beta&t=CU5L7cxud2ufFqfbN29WxUjyqlNybviAY8Sa8cyHPr0',
+      websiteUrl: 'http://www.dignityhealth.org',
+      description: `We provide quality, compassionate health care at more than 40 hospitals and care centers that are serving communities across California, Arizona and Nevada every minute of every day. And while not everyone may live near a major medical facility, Dignity Health is making health care more accessible by bringing resources closer to where people live and work.
+
+      In urban and rural communities alike, residents of all ages and backgrounds have access to primary care, preventive treatment, clinical support, chronic disease management, trauma services, and a host of medical and therapeutic specializations.
+
+      With several different ways to activate your search, let us help you to quickly and easily find an affordable, quality medical facility located close to where you need it, when you need it.`
+    },
+    {
+      id: 'glidewell',
+      name: 'Glidewell Dental',
+      title: 'Glidewell Dental [Contract]',
+      logoUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQEuJ-fK_Ny7pA/company-logo_200_200/0?e=1597276800&v=beta&t=bFCNS-i-TY83f3pE4U6rxr7BLpCa1c2Dd0bZTu7qHJs',
+      websiteUrl: 'http://www.glidewelldental.com',
+      description: `Glidewell Dental's mission is to drive down restorative costs and expand patient access to affordable dentistry.  Glidewell Dental offers dental products and services in partnership with dentists, dental laboratories and manufacturers to promote and restore clinical health. One of the largest dental labs in the world and a medical device manufacturer, the company operates from four locations worldwide.
+
+      Glidewell Dental is a dental industry leader thanks to its innovative dental technology, resourceful R&D department, and dedication to providing free clinical and technical education to promote dental industry growth. As new advancements continue to redefine dental technology, Glidewell Dental remains dedicated to improved CAD/CAM processes and development. The lab has made great strides in case-to-case consistency using this technology, which allows digital impressions to be sent electronically, reducing costs and improving turnaround time.`
     },
     {
       id: 'tegatechnologies',
