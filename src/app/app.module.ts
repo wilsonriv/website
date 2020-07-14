@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { ClientsModule } from './clients/clients.module';
 import { CertificationsModule } from './certifications/certifications.module';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   declarations: [ AppComponent ],
@@ -13,6 +14,7 @@ import { CertificationsModule } from './certifications/certifications.module';
     BrowserModule,
     HeaderModule,
     ClientsModule,
+    AboutModule,
     RouterModule.forRoot([{ path: '', redirectTo: '/clients', pathMatch: 'full' }])
   ],
   providers: [],
