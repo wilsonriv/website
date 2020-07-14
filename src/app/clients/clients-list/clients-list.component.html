@@ -14,7 +14,7 @@
       </a>
     </div>
     <div class="card-body">
-      <h5 class="card-title">{{ client.title }}</h5>
+      <h5 class="card-title"><a [href]="client.websiteUrl" target="_blank">{{ client.title }}</a></h5>
       <p class="card-text">
         {{ client.description | shorten: 110 }}
       </p>
