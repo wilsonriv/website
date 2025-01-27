@@ -8,6 +8,22 @@ import { GroupClient } from './group-client.model';
 export class ClientService {
   private clients: Array<Client> = [
     {
+      id: 'wm',
+      name: 'WM',
+      title: 'West Monroe - Remote',
+      logoUrl: '../../assets/logos/wm.jpg',
+      websiteUrl: 'https://www.westmonroe.com/',
+      description: `Consulting Company`
+    },
+    {
+      id: 'coned',
+      name: 'Coned',
+      title: 'Coned - Remote',
+      logoUrl: '../../assets/logos/coned.jpg',
+      websiteUrl: 'https://coned.com',
+      description: `Utility Provider`
+    },
+    {
       id: 'verys',
       name: 'Verys',
       title: 'Verys - Remote',

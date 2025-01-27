@@ -17,6 +17,7 @@ import { ClientsTegatechnologiesComponent } from './clients-tegatechnologies/cli
 import { ClientsWindtelecomComponent } from './clients-windtelecom/clients-windtelecom.component';
 import { ClientsInteguerComponent } from './clients-integuer/clients-integuer.component';
 import { ClientsHbrgroupComponent } from './clients-hbrgroup/clients-hbrgroup.component';
+import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 @NgModule({
   imports: [RouterModule.forChild([
@@ -36,8 +37,9 @@ import { ClientsHbrgroupComponent } from './clients-hbrgroup/clients-hbrgroup.co
         { path: TEGA_TECHNOLOGIES, component: ClientsTegatechnologiesComponent },
         { path: WIND_TELECOM, component: ClientsWindtelecomComponent },
         { path: INTEGUER, component: ClientsInteguerComponent },
-        { path: HBR_GROUP, component: ClientsHbrgroupComponent }
-      ]
+        { path: HBR_GROUP, component: ClientsHbrgroupComponent },
+        { path: '**', component: UnderConstructionComponent }
+      ],
     }
   ])],
   exports: [RouterModule]
