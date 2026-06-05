@@ -1,27 +1,24 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+<nav class="nav" [class.nav--open]="menuOpen">
+  <div class="nav__inner">
+    <a routerLink="clients" class="nav__brand">WR</a>
 
-  <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <button class="nav__toggle" (click)="menuOpen = !menuOpen" [attr.aria-expanded]="menuOpen" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="collapse_target">
-    <a class="nav-brand" style="cursor: pointer;" routerLink="clients">
-      <img class="navbar-brand" src="../assets/logo.png" alt="Logo">
-    </a>
-
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a style="cursor: pointer;" routerLink="certifications" class="nav-link">Certifications</a>
+    <ul class="nav__links" [class.nav__links--open]="menuOpen">
+      <li><a routerLink="clients" routerLinkActive="active" class="nav__link" (click)="menuOpen = false">Work</a></li>
+      <li><a routerLink="certifications" routerLinkActive="active" class="nav__link" (click)="menuOpen = false">Certifications</a></li>
+      <li><a routerLink="about" routerLinkActive="active" class="nav__link" (click)="menuOpen = false">About</a></li>
+      <li>
+        <a href="https://drive.google.com/file/d/1ROmO3zKziky8Pu_7-nMMdzzoIBYoAm02/view?usp=sharing"
+           target="_blank" class="nav__link nav__link--resume" (click)="menuOpen = false">
+          Resume <i class="fas fa-external-link-alt" style="font-size: 0.7em;"></i>
+        </a>
       </li>
-      <li class="nav-item">        
-        <a href="https://drive.google.com/file/d/1ROmO3zKziky8Pu_7-nMMdzzoIBYoAm02/view?usp=sharing" target="_blank" class="nav-link">Resume</a>        
-      </li>
-      <li class="nav-item">
-        <a style="cursor: pointer;" routerLink="about" class="nav-link">About</a>
-      </li>
-      <li class="nav-item">
-        <a href="mailto:hi@wilsonrivera.com?subject:hi" style="cursor: pointer;" class="nav-link">Contact</a>
-      </li>
+      <li><a href="mailto:hi@wilsonrivera.com" class="nav__link" (click)="menuOpen = false">Contact</a></li>
     </ul>
   </div>
 </nav>
