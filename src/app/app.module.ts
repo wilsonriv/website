@@ -15,7 +15,10 @@ import { AboutModule } from './about/about.module';
     HeaderModule,
     ClientsModule,
     AboutModule,
-    RouterModule.forRoot([{ path: '', redirectTo: '/clients', pathMatch: 'full' }])
+    RouterModule.forRoot(
+      [{ path: '', redirectTo: '/clients', pathMatch: 'full' }],
+      { scrollPositionRestoration: 'enabled' }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]

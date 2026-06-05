@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
     this.router.events
       .pipe(filter(e => e instanceof NavigationEnd))
       .subscribe((e: NavigationEnd) => {
-        this.showHero = e.urlAfterRedirects === '/clients';
+        this.showHero = e.urlAfterRedirects.split(/[?#]/)[0] === '/clients';
       });
   }
 }
