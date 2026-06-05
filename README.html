@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>wilsonrivera&period;com</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <span id="markdown-mermaid" aria-hidden="true" data-config="{&quot;darkModeTheme&quot;:&quot;vscode&quot;,&quot;lightModeTheme&quot;:&quot;vscode&quot;,&quot;maxTextSize&quot;:50000,&quot;clickDrag&quot;:&quot;alt&quot;,&quot;showControls&quot;:&quot;onHoverOrFocus&quot;,&quot;resizable&quot;:true,&quot;maxHeight&quot;:&quot;&quot;}"></span>
+				<h1 id="wilsonriveracom"><a href="http://wilsonrivera.com">wilsonrivera.com</a></h1>
+<p>Personal portfolio site for Wilson Rivera — Software Engineer. Built with Angular 9, deployed to GitHub Pages.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Node.js (v16 recommended; v17+ requires the OpenSSL workaround below)</li>
+<li>Angular CLI: <code>npm install -g @angular/cli@9</code></li>
+</ul>
+<h2 id="install">Install</h2>
+<pre><code class="language-bash">npm install
+</code></pre>
+<h2 id="development">Development</h2>
+<pre><code class="language-bash">NODE_OPTIONS=--openssl-legacy-provider ng serve
+</code></pre>
+<p>Opens at <code>http://localhost:4200</code>. The app hot-reloads on file changes.</p>
+<blockquote>
+<p><strong>Why the NODE_OPTIONS flag?</strong> Angular 9 uses Webpack 4, which relies on an OpenSSL hash algorithm removed in Node 17+. The flag re-enables legacy OpenSSL support.</p>
+</blockquote>
+<h2 id="build-for-production">Build for production</h2>
+<pre><code class="language-bash">NODE_OPTIONS=--openssl-legacy-provider ng build --prod
+</code></pre>
+<p>Output goes to <code>docs/</code> — the GitHub Pages source branch for this repo. No extra copy step needed.</p>
+<h2 id="deploy-to-github-pages">Deploy to GitHub Pages</h2>
+<p>This repo is configured to serve GitHub Pages from the <code>docs/</code> folder on the <code>master</code> branch, with a custom domain (<code>wilsonrivera.com</code>).</p>
+<h3 id="one-time-github-setup">One-time GitHub setup</h3>
+<ol>
+<li>Push the repo to GitHub.</li>
+<li>In the repo, go to <strong>Settings → Pages</strong>.</li>
+<li>Under <strong>Build and deployment</strong>, set <strong>Source</strong> to <em>Deploy from a branch</em>.</li>
+<li>Set the branch to <strong><code>master</code></strong> and the folder to <strong><code>/docs</code></strong>, then <strong>Save</strong>.</li>
+<li>Under <strong>Custom domain</strong>, enter <code>wilsonrivera.com</code> and <strong>Save</strong>. This writes a <code>CNAME</code> file (see the note below about keeping it).</li>
+<li>Once DNS verifies, tick <strong>Enforce HTTPS</strong>.</li>
+</ol>
+<h3 id="one-time-dns-setup">One-time DNS setup</h3>
+<p>At your domain registrar / DNS provider, point the domain at GitHub Pages:</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Host / Name</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A</code></td>
+<td><code>@</code></td>
+<td><code>185.199.108.153</code></td>
+</tr>
+<tr>
+<td><code>A</code></td>
+<td><code>@</code></td>
+<td><code>185.199.109.153</code></td>
+</tr>
+<tr>
+<td><code>A</code></td>
+<td><code>@</code></td>
+<td><code>185.199.110.153</code></td>
+</tr>
+<tr>
+<td><code>A</code></td>
+<td><code>@</code></td>
+<td><code>185.199.111.153</code></td>
+</tr>
+<tr>
+<td><code>CNAME</code></td>
+<td><code>www</code></td>
+<td><code>wilsonriv.github.io.</code> <em>(your Pages domain)</em></td>
+</tr>
+</tbody>
+</table>
+<p>DNS changes can take up to 24 hours to propagate. Verify with <code>dig wilsonrivera.com +short</code> (should return the four GitHub IPs).</p>
+<h3 id="keep-the-custom-domain-across-builds">Keep the custom domain across builds</h3>
+<p><code>ng build</code> <strong>clears the entire <code>docs/</code> folder</strong> on every build, which deletes <code>docs/CNAME</code> and breaks the custom domain until it's restored. To make the <code>CNAME</code> survive every build, keep it as a source asset:</p>
+<ol>
+<li>
+<p>Create <code>src/CNAME</code> containing a single line:</p>
+<pre><code>wilsonrivera.com
+</code></pre>
+</li>
+<li>
+<p>Add it to the <code>assets</code> array in <code>angular.json</code> (under <code>projects → &lt;app&gt; → architect → build → options → assets</code>):</p>
+<pre><code class="language-json"><span class="hljs-attr">&quot;assets&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">[</span>
+  <span class="hljs-string">&quot;src/favicon.ico&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-string">&quot;src/assets&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-string">&quot;src/CNAME&quot;</span>
+<span class="hljs-punctuation">]</span>
+</code></pre>
+</li>
+</ol>
+<p>Now each production build copies <code>CNAME</code> into <code>docs/</code> automatically.</p>
+<blockquote>
+<p>If you skip this, you must manually re-create <code>docs/CNAME</code> (containing <code>wilsonrivera.com</code>) after every build, or set the custom domain again in <strong>Settings → Pages</strong>.</p>
+</blockquote>
+<h3 id="deploy-steps">Deploy steps</h3>
+<pre><code class="language-bash"><span class="hljs-comment"># 1. Build production output into docs/</span>
+NODE_OPTIONS=--openssl-legacy-provider ng build --prod
+
+<span class="hljs-comment"># 2. Confirm the CNAME is present</span>
+<span class="hljs-built_in">cat</span> docs/CNAME   <span class="hljs-comment"># -&gt; wilsonrivera.com</span>
+
+<span class="hljs-comment"># 3. Commit and push the updated docs/ folder</span>
+git add docs/
+git commit -m <span class="hljs-string">&quot;build: production deploy&quot;</span>
+git push
+</code></pre>
+<p>GitHub Pages redeploys automatically within a minute or two.</p>
+<p>Live at: <strong><a href="https://wilsonrivera.com">https://wilsonrivera.com</a></strong></p>
+<h2 id="project-structure">Project structure</h2>
+<pre><code>src/
+  app/
+    header/
+      jumbotron/        # Full-viewport hero section
+      header.*          # Sticky glassmorphism nav
+    about/              # Two-column about + skills
+    clients/
+      clients-list/     # Work experience card grid
+      client.service.ts # All client/company data lives here
+    certifications/     # Certification badge grid
+  styles.css            # Global CSS design system (variables, shared styles)
+  index.html            # Google Fonts loaded here
+</code></pre>
+<h2 id="adding-a-new-company">Adding a new company</h2>
+<ol>
+<li>Add an entry to the <code>clients</code> array in <code>src/app/clients/client.service.ts</code></li>
+<li>Drop the logo into <code>src/assets/logos/</code></li>
+<li>Create a detail component under <code>src/app/clients/clients-&lt;name&gt;/</code></li>
+<li>Register the route in <code>src/app/clients/clients-routing.module.ts</code></li>
+</ol>
+
+            
+            
+        </body>
+        </html>
