@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   menuOpen = false;
 
+  // Close the mobile menu. Used as a click handler instead of the inline
+  // `menuOpen = false` expression: that assignment evaluates to `false`, which
+  // makes Angular call event.preventDefault() and silently blocks plain anchor
+  // links (e.g. the external Resume link) from opening.
+  closeMenu(): void {
+    this.menuOpen = false;
+  }
+
   // Navigate to /clients (via routerLink) then scroll to the Work section.
   // Polls because the #work element may not be rendered yet when coming from
   // another route, and re-clicking the same URL won't re-trigger the router.

@@ -10,15 +10,15 @@
 
     <ul class="nav__links" [class.nav__links--open]="menuOpen">
       <li><a routerLink="clients" routerLinkActive="active" class="nav__link" (click)="scrollToWork()">Work</a></li>
-      <li><a routerLink="certifications" routerLinkActive="active" class="nav__link" (click)="menuOpen = false">Certifications</a></li>
-      <li><a routerLink="about" routerLinkActive="active" class="nav__link" (click)="menuOpen = false">About</a></li>
+      <li><a routerLink="certifications" routerLinkActive="active" class="nav__link" (click)="closeMenu()">Certifications</a></li>
+      <li><a routerLink="about" routerLinkActive="active" class="nav__link" (click)="closeMenu()">About</a></li>
       <li>
         <a href="https://drive.google.com/file/d/1ROmO3zKziky8Pu_7-nMMdzzoIBYoAm02/view?usp=sharing"
-           target="_blank" class="nav__link nav__link--resume" (click)="menuOpen = false">
+           target="_blank" class="nav__link nav__link--resume" (click)="closeMenu()">
           Resume <i class="fas fa-external-link-alt" style="font-size: 0.7em;"></i>
         </a>
       </li>
-      <li><a href="mailto:hi@wilsonrivera.com" class="nav__link" (click)="menuOpen = false">Contact</a></li>
+      <li><a href="mailto:hi@wilsonrivera.com" class="nav__link" (click)="closeMenu()">Contact</a></li>
     </ul>
   </div>
 </nav>
