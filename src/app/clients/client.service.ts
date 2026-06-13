@@ -8,6 +8,14 @@ import { GroupClient } from './group-client.model';
 export class ClientService {
   private clients: Array<Client> = [
     {
+      id: 'oc',
+      name: 'Option Care Health',
+      title: 'Option Care Health - Remote',
+      logoUrl: '../../assets/logos/optioncare.jpeg',
+      websiteUrl: 'https://optioncarehealth.com',
+      description: `As of August 7, 2019, Option Care and BioScrip have merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates including 2,900 clinicians, we work compassionately to elevate standards of care for patients with acute and chronic conditions in all 50 states. Through our clinical leadership, expertise and national scale, Option Care Health is reimagining the infusion care experience for patients, customers and employees.`
+    },
+    {
       id: 'wm',
       name: 'WM',
       title: 'West Monroe - Remote',
@@ -30,14 +38,6 @@ export class ClientService {
       logoUrl: '../../assets/logos/verys.png',
       websiteUrl: 'https://verys.com',
       description: `We provide end-to-end design and technology web and mobile services utilizing a local, onshore delivery model.`
-    },
-    {
-      id: 'oc',
-      name: 'Option Care Health',
-      title: 'Option Care Health [Contract] - Remote',
-      logoUrl: '../../assets/logos/optioncare.jpeg',
-      websiteUrl: 'https://optioncarehealth.com',
-      description: `As of August 7, 2019, Option Care and BioScrip have merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates including 2,900 clinicians, we work compassionately to elevate standards of care for patients with acute and chronic conditions in all 50 states. Through our clinical leadership, expertise and national scale, Option Care Health is reimagining the infusion care experience for patients, customers and employees.`
     },
     {
       id: 'pwc',
