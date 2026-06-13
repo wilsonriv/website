@@ -13,7 +13,7 @@ export class ClientService {
       title: 'Option Care Health - Remote',
       logoUrl: '../../assets/logos/optioncare.jpeg',
       websiteUrl: 'https://optioncarehealth.com',
-      description: `As of August 7, 2019, Option Care and BioScrip have merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates including 2,900 clinicians, we work compassionately to elevate standards of care for patients with acute and chronic conditions in all 50 states. Through our clinical leadership, expertise and national scale, Option Care Health is reimagining the infusion care experience for patients, customers and employees.`
+      description: `On August 7, 2019, Option Care and BioScrip merged to become one national team, solely dedicated to infusion care. Option Care Health, Inc. is the largest independent home and alternate site infusion services provider in the United States. With over 6,000 teammates, including 2,900 clinicians, the company works compassionately to elevate standards of care for patients with acute and chronic conditions across all 50 states. Through its clinical leadership, expertise, and national scale, Option Care Health is reimagining the infusion care experience for patients, customers, and employees.`
     },
     {
       id: 'wm',
@@ -37,7 +37,7 @@ export class ClientService {
       title: 'Verys - Remote',
       logoUrl: '../../assets/logos/verys.png',
       websiteUrl: 'https://verys.com',
-      description: `We provide end-to-end design and technology web and mobile services utilizing a local, onshore delivery model.`
+      description: `Verys provides end-to-end design and technology web and mobile services utilizing a local, onshore delivery model.`
     },
     {
       id: 'pwc',
@@ -45,9 +45,9 @@ export class ClientService {
       title: 'PwC [Contract]',
       logoUrl: '../../assets/logos/pwc.jpeg',
       websiteUrl: 'https://www.pwc.com/gx/en',
-      description: `PwC helps organizations and individuals create the value they're looking for. We're a network of firms in 157 countries with more than 276,000 people.
+      description: `PwC helps organizations and individuals create the value they are looking for. It is a network of firms in 157 countries with more than 276,000 people.
 
-      PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. Please see www.pwc.com/structure for further details. The firms that make up the PwC network are committed to working together to provide quality service offerings for clients throughout the world. Firms in the PwC network are members in, or have other connections to, PricewaterhouseCoopers International Limited (PwCIL), an English private company limited by guarantee. PwCIL does not practise accountancy or provide services to clients.`
+      PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. The firms that make up the PwC network are committed to working together to provide quality service offerings for clients throughout the world. Firms in the PwC network are members of, or have other connections to, PricewaterhouseCoopers International Limited (PwCIL), an English private company limited by guarantee. PwCIL does not practice accountancy or provide services to clients.`
     },
     {
       id: 'vertafore',
@@ -55,7 +55,7 @@ export class ClientService {
       title: 'Vertafore [Contract]',
       logoUrl: '../../assets/logos/vertafore.jpeg',
       websiteUrl: 'https://www.vertafore.com',
-      description: `Vertafore is the leader in creating modern insurance technology. Every day thousands of insurance agencies, carriers and states use a breadth of Vertafore solutions to grow their businesses, process claims for their customers and much more. Click on the Careers tab to learn more about opportunities with us!`
+      description: `Vertafore is the leader in creating modern insurance technology. Every day, thousands of insurance agencies, carriers, and states use a breadth of Vertafore solutions to grow their businesses, process claims for their customers, and much more.`
     },
     {
       id: 'senegence',
@@ -63,18 +63,15 @@ export class ClientService {
       title: 'SeneGence International',
       logoUrl: '../../assets/logos/senegence.png',
       websiteUrl: 'https://senegence.com',
-      description: `SeneGence International allows beauty lovers from all walks of life to choose to live life in love and abundance...And then work for it!
+      description: `SeneGence International allows beauty lovers from all walks of life to choose to live life in love and abundance.
 
-      Founded in 1999 by Joni Rogers-Kante, SeneGence International sprung onto the direct-selling scene with its premier product, LipSense. This long-lasting lip color was a big hit among busy, hard-working women on the go. Years later, our product line and global reach continues to expand, as we empower individuals to be successful business owners. We started with a team of one Distributor, and now, we are a proud family of hundreds of thousands.
+      Founded in 1999 by Joni Rogers-Kante, SeneGence International sprung onto the direct-selling scene with its premier product, LipSense. This long-lasting lip color was a big hit among busy, hard-working women on the go. Years later, its product line and global reach continue to expand as the company empowers individuals to become successful business owners. SeneGence started with a team of one Distributor and is now a proud family of hundreds of thousands.
 
-      We pride ourselves on being on the cutting edge of anti-aging skin care, nourishing hair care, and long-lasting color technology with our original, patented, and proprietary product formulations. Our products are formulated with no animal byproducts, in compliance with FDA regulations, and made in the United States for tight quality control.
+      The company prides itself on being on the cutting edge of anti-aging skin care, nourishing hair care, and long-lasting color technology with its original, patented, and proprietary product formulations. Its products are formulated with no animal byproducts, in compliance with FDA regulations, and made in the United States for tight quality control.
 
-      Our vision is to offer superior products and an opportunity for individuals to be independent and successful in business regardless of age, background, or education. We are committed to making a positive contribution to beauty enthusiasts everywhere. Strong practices around being environmentally sensitive include use of naturally reoccurring ingredients, refraining from any animal testing, and omitting external product packaging to keep the company environmentally conscientious and ecologically responsible.
+      SeneGence's vision is to offer superior products and an opportunity for individuals to be independent and successful in business regardless of age, background, or education. The company is committed to making a positive contribution to beauty enthusiasts everywhere. Its environmentally sensitive practices include using naturally reoccurring ingredients, refraining from any animal testing, and omitting external product packaging to remain environmentally conscientious and ecologically responsible.
 
-      Our nonprofit organization, The Make Sense Foundation®, regularly raises and contributes funds for women and children in need.
-
-      At SeneGence, you’ll join a growing network of Distributors and have the chance to live the beautiful, abundant lifestyle you’ve always wanted.
-      `
+      Its nonprofit organization, The Make Sense Foundation®, regularly raises and contributes funds for women and children in need.`
     },
     {
       id: 'technossus',
@@ -82,7 +79,7 @@ export class ClientService {
       title: 'Technossus',
       logoUrl: '../../assets/logos/technossus.jpeg',
       websiteUrl: 'http://www.technossus.com',
-      description: `Technossus enables business acceleration and transformation for companies in the Healthcare, Financial Services, and Bio-Sciences Industries; thru a range of solutions around Outcome-based Roadmaps, Cloud Strategy & Transformation, and Technology Platform Optimization.
+      description: `Technossus enables business acceleration and transformation for companies in the Healthcare, Financial Services, and Bio-Sciences Industries; through a range of solutions around Outcome-based Roadmaps, Cloud Strategy & Transformation, and Technology Platform Optimization.
 
       Founded in 2008, Technossus is a privately-held technology consulting firm headquartered in Irvine, CA. Since its inception, Technossus has become one of the fastest-growing technology consultancies in the nation, having earned Inc.’s 5000™ Fastest-Growing Privately-Held Companies for multiple years.
       Technossus operates in a class of its own, with a consultative approach to do what’s best for its clients’ businesses. The firm is committed to a model that focuses on high-quality outcomes through a deep understanding of client issues, both seen and unseen —transforming businesses to stay relevant in an increasingly digital world.
@@ -98,7 +95,7 @@ export class ClientService {
       title: 'Bio-Rad Laboratories [Contract]',
       logoUrl: '../../assets/logos/biorad.png',
       websiteUrl: 'http://www.bio-rad.com',
-      description: `Since Bio-Rad was founded over six decades ago, we have continued to provide the healthcare industry with innovative and useful products that help life science researchers accelerate the discovery process and medical diagnostic labs obtain faster, better results. Throughout our existence, we have built long-lasting customer relationships that help advance our research and development efforts in the introduction of new products and solutions. Today, Bio-Rad is a global leader, with a team of over 8,000 employees and a global network of operations that serves our life science research and clinical diagnostics customers, helping people live longer, healthier lives.`
+      description: `Since Bio-Rad was founded over six decades ago, it has continued to provide the healthcare industry with innovative and useful products that help life science researchers accelerate the discovery process and medical diagnostic labs obtain faster, better results. Throughout its existence, the company has built long-lasting customer relationships that help advance its research and development efforts in the introduction of new products and solutions. Today, Bio-Rad is a global leader, with a team of over 8,000 employees and a global network of operations that serves its life science research and clinical diagnostics customers, helping people live longer, healthier lives.`
     },
     {
       id: 'amareglobal',
@@ -106,13 +103,13 @@ export class ClientService {
       title: 'Amare Global [Contract]',
       logoUrl: '../../assets/logos/amareglobal.png',
       websiteUrl: 'http://www.amareglobal.com',
-      description: `Amare Global creates a holistic mental wellness platform that connects a purpose-driven community of passionate people. Our vision is to lead the mental wellness revolution.
+      description: `Amare Global creates a holistic mental wellness platform that connects a purpose-driven community of passionate people. Its vision is to lead the mental wellness revolution.
 
       Founder and CEO of Amare Global, Hiep Tran, began his entrepreneurial journey at 23 when he decided that medical school was not for him. He started working for a payments processing company.
 
       “For the next 5 years, I surrounded myself with the most successful people I knew, in order to grow and learn from them. Eventually that payments company I was working for was sold.  I reached an important crossroads: stay comfortable in my current position or build something for myself. In 2008, together with a partner, we invested all of our savings and co-founded a new company: Meritus Payment Solutions. We started from humble beginnings with five employees in 2008 and surged to over 100 employees by 2014 when we were acquired by Optimal Payments.  During those 6 years, I fell in love with helping people achieve their own life-changing success.  However, work always came first, family second, and personal health a distant third. I took my health for granted until the consequences became real.  Thankfully, I pulled through instead of succumbing to these challenges. I channeled the experience positively, to change my life and learn as much as I could about health and nutrition. The result was a newfound passion.”
 
-      Thus, Amare Global was created. We focus on the excellence and integrity throughout our product development, people development, and the customer experience. Ultimately, we strive to create products that will inspire people to become better versions of themselves. Amare means "To Love"​ in Latin and we believe in promoting Love for one's self, as well as a powerful connection with others. By empowering people to connect through our innovative products and platform, we will grow together and reach beyond our limits.`
+      Thus, Amare Global was created. The company focuses on excellence and integrity throughout its product development, people development, and the customer experience. Ultimately, it strives to create products that inspire people to become better versions of themselves. Amare means "To Love" in Latin, and the company believes in promoting love for one's self, as well as a powerful connection with others. By empowering people to connect through its innovative products and platform, Amare Global aims to grow together and reach beyond its limits.`
     },
     {
       id: 'dignityhealth',
@@ -120,11 +117,9 @@ export class ClientService {
       title: 'Dignity Health [Contract]',
       logoUrl: '../../assets/logos/dignityhealth.png',
       websiteUrl: 'http://www.dignityhealth.org',
-      description: `We provide quality, compassionate health care at more than 40 hospitals and care centers that are serving communities across California, Arizona and Nevada every minute of every day. And while not everyone may live near a major medical facility, Dignity Health is making health care more accessible by bringing resources closer to where people live and work.
+      description: `Dignity Health provides quality, compassionate health care at more than 40 hospitals and care centers serving communities across California, Arizona, and Nevada every minute of every day. And while not everyone may live near a major medical facility, Dignity Health is making health care more accessible by bringing resources closer to where people live and work.
 
-      In urban and rural communities alike, residents of all ages and backgrounds have access to primary care, preventive treatment, clinical support, chronic disease management, trauma services, and a host of medical and therapeutic specializations.
-
-      With several different ways to activate your search, let us help you to quickly and easily find an affordable, quality medical facility located close to where you need it, when you need it.`
+      In urban and rural communities alike, residents of all ages and backgrounds have access to primary care, preventive treatment, clinical support, chronic disease management, trauma services, and a host of medical and therapeutic specializations.`
     },
     {
       id: 'glidewell',
@@ -152,9 +147,9 @@ export class ClientService {
       title: 'WIND telecom',
       logoUrl: '../../assets/logos/wind-telecom.jpeg',
       websiteUrl: 'http://www.wind.com.do',
-      description: `WIND TELECOM, S. A. es una empresa de telecomunicaciones en República Dominicana, cuyo enfoque es brindar servicios integrados de Voz, Televisión Digital e Internet a nuestros clientes personales, así como servicios especializados a empresas, instituciones y a otras prestadores de servicios, garantizando calidad, costo y entrega. Nuestra red de voz y datos es completamente IP; además está basada primordialmente en tecnología WiMax, apoyándose también en accesos punto a punto por microondas y redes de fibra óptica para el transporte de grandes volúmenes de información. Nuestra red de video está basada en MMDS (Multichannel Multipoint Distribution System).
+      description: `WIND TELECOM, S. A. is a telecommunications company in the Dominican Republic focused on delivering integrated Voice, Digital Television, and Internet services to residential customers, as well as specialized services to businesses, institutions, and other service providers, guaranteeing quality, cost, and delivery. Its voice and data network is fully IP-based and relies primarily on WiMax technology, supported by point-to-point microwave links and fiber-optic networks for transporting large volumes of information. Its video network is based on MMDS (Multichannel Multipoint Distribution System).
 
-      Nuestro propósito es ser el proveedor preferido de soluciones de conectividad, contenido de información y entretenimiento en los mercados personales, empresariales e institucionales, satisfaciendo las expectativas de nuestros clientes en calidad, costo y entrega y apoyando de manera directa la educación en República Dominicana.`
+      Its purpose is to be the preferred provider of connectivity, information content, and entertainment solutions across the residential, business, and institutional markets, meeting customer expectations for quality, cost, and delivery while directly supporting education in the Dominican Republic.`
     },
     {
       id: 'integuer',
@@ -162,7 +157,7 @@ export class ClientService {
       title: 'Integuer',
       logoUrl: '../../assets/logos/integuer_brand.png',
       websiteUrl: 'https://www.integuer.do',
-      description: `Integuer S.R.L. nace en el 2010 como un emprendimíento de su actual Presidente el Ing. Martín José Santos Casado en su retorno al país después de un período profesional y vital de 18 años por Europa, siendo el posicionamiento de la compañía "Software y soluciones para la gestión de empresas". Integuer ha desarrollado diferentes proyectos para destacadas empresas tanto en el sector público como en el sector privado.`
+      description: `Integuer S.R.L. was founded in 2010 as a venture by its current President, Eng. Martín José Santos Casado, upon his return to the country after an 18-year professional and personal journey across Europe. The company is positioned around "Software and solutions for business management," and Integuer has delivered a range of projects for prominent organizations in both the public and private sectors.`
     },
     {
       id: 'hbrgroup',
@@ -170,15 +165,15 @@ export class ClientService {
       title: 'HBR Group',
       logoUrl: '../../assets/logos/logo-site.png',
       websiteUrl: 'http://hbrgroup.com.do',
-      description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
+      description: `HBR Group is a company of continuously trained Dominican professionals specializing in consulting services and vertical or custom development for banks and financial-sector companies at both the national and international level.
 
-      Nuestra principal fortaleza es un equipo humano altamente especializado con una gran diversidad y profundidad de conocimientos en el desarrollo de productos bancarios, el cual se adapta al estilo de trabajo de sus diferentes clientes. En adición, un equipo de dirección con una vasta experiencia en la banca, cuya iniciativa empresarial ha sido dirigida exclusivamente al sector financiero-bancario.
+      Its main strength is a highly specialized team with broad and deep expertise in developing banking products, one that adapts to the working style of its different clients. It is backed by a management team with vast banking experience whose entrepreneurial initiative has been dedicated exclusively to the financial and banking sector.
 
-      Nuestra propuesta a las empresas de dicho entorno le aporta un importante matiz: el uso de nuevas tecnologías y un completo análisis previo, así como nuestro conocimiento de los retos que enfrenta la banca de hoy en día.
+      Its value proposition adds an important edge for companies in this space: the use of new technologies and thorough up-front analysis, together with a deep understanding of the challenges banks face today.
 
-      Nuestra empresa posee fortalezas en Consultorías, Gestión de Proyectos y Desarrollos de Aplicaciones Verticales. Esto se debe a que contamos con el personal adecuado e identificado con las necesidades de nuestros clientes.
+      The company has particular strengths in Consulting, Project Management, and Vertical Application Development, made possible by a staff that is well suited to and aligned with its clients' needs.
 
-      Somos una empresa de servicios, conocedores de las necesidades esenciales de nuestros clientes ya que hemos laborado en diversas instituciones bancarias. Esto nos hace poseedores de experiencia laboral adquirida a través del tiempo por la ejecución de grandes proyectos relacionados al sector que orientamos nuestros productos y servicios.`
+      As a services company, HBR Group understands its clients' essential needs, having worked across a variety of banking institutions. This gives it practical experience built over time through the delivery of major projects in the sector its products and services are oriented toward.`
     },
     {
       id: 'hidden',
@@ -186,15 +181,15 @@ export class ClientService {
       title: 'HBR Group',
       logoUrl: '../../assets/logos/logo-site.png',
       websiteUrl: 'http://hbrgroup.com.do',
-      description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
+      description: `HBR Group is a company of continuously trained Dominican professionals specializing in consulting services and vertical or custom development for banks and financial-sector companies at both the national and international level.
 
-      Nuestra principal fortaleza es un equipo humano altamente especializado con una gran diversidad y profundidad de conocimientos en el desarrollo de productos bancarios, el cual se adapta al estilo de trabajo de sus diferentes clientes. En adición, un equipo de dirección con una vasta experiencia en la banca, cuya iniciativa empresarial ha sido dirigida exclusivamente al sector financiero-bancario.
+      Its main strength is a highly specialized team with broad and deep expertise in developing banking products, one that adapts to the working style of its different clients. It is backed by a management team with vast banking experience whose entrepreneurial initiative has been dedicated exclusively to the financial and banking sector.
 
-      Nuestra propuesta a las empresas de dicho entorno le aporta un importante matiz: el uso de nuevas tecnologías y un completo análisis previo, así como nuestro conocimiento de los retos que enfrenta la banca de hoy en día.
+      Its value proposition adds an important edge for companies in this space: the use of new technologies and thorough up-front analysis, together with a deep understanding of the challenges banks face today.
 
-      Nuestra empresa posee fortalezas en Consultorías, Gestión de Proyectos y Desarrollos de Aplicaciones Verticales. Esto se debe a que contamos con el personal adecuado e identificado con las necesidades de nuestros clientes.
+      The company has particular strengths in Consulting, Project Management, and Vertical Application Development, made possible by a staff that is well suited to and aligned with its clients' needs.
 
-      Somos una empresa de servicios, conocedores de las necesidades esenciales de nuestros clientes ya que hemos laborado en diversas instituciones bancarias. Esto nos hace poseedores de experiencia laboral adquirida a través del tiempo por la ejecución de grandes proyectos relacionados al sector que orientamos nuestros productos y servicios.`
+      As a services company, HBR Group understands its clients' essential needs, having worked across a variety of banking institutions. This gives it practical experience built over time through the delivery of major projects in the sector its products and services are oriented toward.`
     },
     {
       id: 'hidden',
@@ -202,15 +197,15 @@ export class ClientService {
       title: 'HBR Group',
       logoUrl: '../../assets/logos/logo-site.png',
       websiteUrl: 'http://hbrgroup.com.do',
-      description: `HBR Group es una empresa de profesionales dominicanos en continua formación, especializados en servicios de consultoría y desarrollos verticales o personalizados para la banca y empresas del sector financiero de ámbito nacional e internacional.
+      description: `HBR Group is a company of continuously trained Dominican professionals specializing in consulting services and vertical or custom development for banks and financial-sector companies at both the national and international level.
 
-      Nuestra principal fortaleza es un equipo humano altamente especializado con una gran diversidad y profundidad de conocimientos en el desarrollo de productos bancarios, el cual se adapta al estilo de trabajo de sus diferentes clientes. En adición, un equipo de dirección con una vasta experiencia en la banca, cuya iniciativa empresarial ha sido dirigida exclusivamente al sector financiero-bancario.
+      Its main strength is a highly specialized team with broad and deep expertise in developing banking products, one that adapts to the working style of its different clients. It is backed by a management team with vast banking experience whose entrepreneurial initiative has been dedicated exclusively to the financial and banking sector.
 
-      Nuestra propuesta a las empresas de dicho entorno le aporta un importante matiz: el uso de nuevas tecnologías y un completo análisis previo, así como nuestro conocimiento de los retos que enfrenta la banca de hoy en día.
+      Its value proposition adds an important edge for companies in this space: the use of new technologies and thorough up-front analysis, together with a deep understanding of the challenges banks face today.
 
-      Nuestra empresa posee fortalezas en Consultorías, Gestión de Proyectos y Desarrollos de Aplicaciones Verticales. Esto se debe a que contamos con el personal adecuado e identificado con las necesidades de nuestros clientes.
+      The company has particular strengths in Consulting, Project Management, and Vertical Application Development, made possible by a staff that is well suited to and aligned with its clients' needs.
 
-      Somos una empresa de servicios, conocedores de las necesidades esenciales de nuestros clientes ya que hemos laborado en diversas instituciones bancarias. Esto nos hace poseedores de experiencia laboral adquirida a través del tiempo por la ejecución de grandes proyectos relacionados al sector que orientamos nuestros productos y servicios.`
+      As a services company, HBR Group understands its clients' essential needs, having worked across a variety of banking institutions. This gives it practical experience built over time through the delivery of major projects in the sector its products and services are oriented toward.`
     },
 
   ];
