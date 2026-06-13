@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+ * On the home page the jumbotron (min-height: 100vh) renders before the
+ * header, which pushes the nav/burger a full screen down. On mobile we flip
+ * the visual order so the header — and its burger toggle — sits at the very
+ * top, while desktop keeps the clean full-screen hero with the nav below it.
+ */
+@media (max-width: 640px) {
+  app-header {
+    order: -1;
+  }
+}
