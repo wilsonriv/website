@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="logon-container text-center">
+    <a [href]="client.websiteUrl" target="_blank">
+      <img [src]="client.logoUrl" class="rounded-circle" [alt]="client.name">
+    </a>
+  </div>
+
+  <h2><a [href]="client.websiteUrl" target="_blank">{{ client.name }}</a></h2>
+  <p>
+    West Monroe is a digital consulting firm &mdash; born in technology but built for business &mdash; that partners with companies to bring strategy and technology together and deliver measurable value.
+  </p>
+
+  <p>
+    As a consultant with <strong>{{ client.name }}</strong>, I'm placed with their clients to design and build software solutions:
+  </p>
+  <ul>
+    <li><a routerLink="../coned">Con Edison</a></li>
+  </ul>
+</div>

@@ -17,7 +17,7 @@ export class ClientService {
     },
     {
       id: 'wm',
-      name: 'WM',
+      name: 'West Monroe',
       title: 'West Monroe - Remote',
       logoUrl: '../../assets/logos/wm.jpg',
       websiteUrl: 'https://www.westmonroe.com/',
@@ -25,8 +25,8 @@ export class ClientService {
     },
     {
       id: 'coned',
-      name: 'Coned',
-      title: 'Coned - Remote',
+      name: 'Con Edison',
+      title: 'Con Edison - Remote',
       logoUrl: '../../assets/logos/coned.jpg',
       websiteUrl: 'https://coned.com',
       description: `One of the largest energy-delivery utilities in the U.S., serving the New York City region.`

@@ -1,4 +1,6 @@
 export const VERYS = 'verys';
+export const WEST_MONROE = 'wm';
+export const CON_EDISON = 'coned';
 export const VERTAFORE = 'vertafore';
 export const PWC = 'pwc';
 export const OPTION_CARE = 'oc';

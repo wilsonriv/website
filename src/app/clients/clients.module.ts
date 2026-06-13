@@ -4,6 +4,8 @@ import { ClientsComponent } from './clients.component';
 import { SharedModule } from '../shared/shared.module';
 import { ClientsListComponent } from './clients-list/clients-list.component';
 import { ClientsVerysComponent } from './clients-verys/clients-verys.component';
+import { ClientsWmComponent } from './clients-wm/clients-wm.component';
+import { ClientsConedComponent } from './clients-coned/clients-coned.component';
 import { ClientsVertaforeComponent } from './clients-vertafore/clients-vertafore.component';
 import { ClientsPwcComponent } from './clients-pwc/clients-pwc.component';
 import { ClientsSenegenceComponent } from './clients-senegence/clients-senegence.component';
@@ -20,7 +22,7 @@ import { ClientsHbrgroupComponent } from './clients-hbrgroup/clients-hbrgroup.co
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 @NgModule({
-  declarations: [ClientsComponent, ClientsListComponent, ClientsVerysComponent, ClientsVertaforeComponent, ClientsPwcComponent, ClientsSenegenceComponent, ClientsOptioncareComponent, ClientsTechnossusComponent, ClientsGlidewellComponent, ClientsBioradComponent, ClientsDignityhealthComponent, ClientsAmareglobalComponent, ClientsTegatechnologiesComponent, ClientsWindtelecomComponent, ClientsInteguerComponent, ClientsHbrgroupComponent, UnderConstructionComponent],
+  declarations: [ClientsComponent, ClientsListComponent, ClientsVerysComponent, ClientsWmComponent, ClientsConedComponent, ClientsVertaforeComponent, ClientsPwcComponent, ClientsSenegenceComponent, ClientsOptioncareComponent, ClientsTechnossusComponent, ClientsGlidewellComponent, ClientsBioradComponent, ClientsDignityhealthComponent, ClientsAmareglobalComponent, ClientsTegatechnologiesComponent, ClientsWindtelecomComponent, ClientsInteguerComponent, ClientsHbrgroupComponent, UnderConstructionComponent],
   imports: [
     ClientsRoutingModule,
     SharedModule
